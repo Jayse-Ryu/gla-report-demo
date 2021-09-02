@@ -1,0 +1,90 @@
+@import '~vuetify/src/styles/styles.sass';
+
+$heading-font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
+
+$body-font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
+$body-font-family-ja: 'Noto Sans JP', 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
+
+// $switch-track-inset-opacity: 1;
+
+// Typography
+$headings: (
+  'h1': (
+    'size': 2.25rem,
+    'weight': bold,
+    'letter-spacing': 0,
+  ),
+  'h2': (
+    'size': 1.5rem,
+    'weight': bold,
+    'letter-spacing': 0,
+  ),
+  'h3': (
+    'size': 1.25rem,
+    'weight': bold,
+    'letter-spacing': 0,
+  ),
+  'subtitle-1': (
+    'size': 0.75rem,
+    'weight': bold,
+    'letter-spacing': 0,
+  ),
+  'body-1': (
+    'size': 1rem,
+    'weight': normal,
+    'letter-spacing': 0,
+  ),
+  'body-2': (
+    'size': 0.875rem,
+    'weight': normal,
+    'letter-spacing': 0,
+  ),
+  'caption': (
+    'size': 0.75rem,
+    'weight': normal,
+    'letter-spacing': 0,
+  ),
+  'button': (
+    'size': 0.875rem,
+    'weight': bold,
+    'text-transform': capitalize
+  ),
+);
+
+// Button
+$btn-text-transform: capitalize !default;
+$btn-font-weight: bold !default;
+$btn-letter-spacing: unset !default;
+$btn-text-transform: none !default;
+$btn-letter-spacing: 0 !default;
+
+// Card
+$card-text-font-size: map-deep-get($headings, 'body-1', 'size') !default;
+$card-text-font-weight: map-deep-get($headings, 'body-1', 'weight') !default;
+$card-title-font-size: map-deep-get($headings, 'h3', 'size') !default;
+$card-title-font-weight: map-deep-get($headings, 'h3', 'weight') !default;
+$card-title-letter-spacing: 0 !default;
+$card-text-letter-spacing: 0 !default;
+
+// Table
+$data-table-regular-header-font-size: map-deep-get($headings, 'body-2', 'size') !default;
+$data-table-regular-row-font-size: map-deep-get($headings, 'body-2', 'size') !default;
+
+// Dialog
+$dialog-card-title-font-size: map-deep-get($headings, 'body-1', 'size') !default;
+$dialog-card-title-font-weight: bold !default;
+
+// List
+$list-item-title-font-size: map-deep-get($headings, 'body-1', 'size') !default;
+$list-item-subtitle-font-size: map-deep-get($headings, 'body-2', 'size') !default;
+
+// Tab
+$tabs-item-letter-spacing: unset !default;
+$tabs-item-letter-spacing: 0 !default;
+
+// Input
+$input-label-letter-spacing: 0 !default;
+$input-letter-spacing: 0 !default;
+
+// Badge
+$badge-letter-spacing: 0 !default;

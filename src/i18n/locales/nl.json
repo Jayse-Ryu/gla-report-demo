@@ -1,0 +1,369 @@
+{
+    "header": {
+        "ReportOfLeader": "GLA Feedbackrapport voor <b>{leader}<\/b>",
+        "reportOfLeader": "GLA Feedbackrapport voor <b> {leader}<\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Respondenten Overzicht",
+        "competencyPercentiles": "Competentie Radargrafiek",
+        "competencyOverview": "Competentie Samenvatting",
+        "highestRatedItems": "Items met de Hoogste Score",
+        "lowestRatedItems": "Items met de Laagste Score",
+        "significantGaps": "Significante Verschillen",
+        "writtenComments": "Schriftelijke opmerkingen",
+        "pageTitle": "Feedbackrapport",
+        "competencyBrief": "Competentie Samenvatting",
+        "competencyMap": "Competentie Overzicht",
+        "combinedCompetency": "Competentie Highlights & Overzicht",
+        "competencyDescription": "Competentieoverzicht",
+        "abbreviated": "Afgekort",
+        "topFive": "Top 5",
+        "reportOverview": "Verslag Overzicht",
+        "listOfCompetencies": "Lijst met competenties"
+    },
+    "relationships": {
+        "self": "Eigenbeoordeling",
+        "managers": "Managers",
+        "direct_reports": "Medewerkers",
+        "peers": "Collega's",
+        "others": "Anderen",
+        "all_respondents": "Alle Respondenten",
+        "leader": "Self",
+        "respondents": "All Respondents"
+    },
+    "common": {
+        "total": "Totaal",
+        "no_information": "Geen informatie",
+        "no_response": "Geen antwoord",
+        "average": "Gemiddeld",
+        "country": "Land",
+        "language": "Taal",
+        "noDataDisplay": "Geen data ter beschikking",
+        "focusedNote": "Let op: het Focused GLA360-rapport bevat de top 5 items in deze categorie. De uitgebreide lijst met items is beschikbaar in het volledige GLA360-rapport."
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>GLA360 Verslag<\/b> voor <b>{leader}<\/b>",
+        "publishedAt": "Gepubliceerd op {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Overzicht van Respondenten",
+        "descriptionTable": "De onderstaande cijfers vertegenwoordigen het aantal voltooide surveys dat door elke respondentengroep vóór de inleverdatum is ingediend. Houd er rekening mee dat deze cijfers niet noodzakelijk het aantal reacties weergeven dat u op elk item hebt ontvangen. Het is namelijk mogelijk dat de respondenten u niet op elk item feedback hebben gegeven. Deze cijfers vertegenwoordigen alleen voltooide en ingediende assessments.",
+        "descriptionData": "Om de anonimiteit te bewaren, geeft uw feedbackrapport geen reacties weer van anonieme respondentengroepen (bijv. medewerkers, collega's, anderen) met minder dan drie ingediende vragenlijsten. In dit geval worden de beoordelingen gecombineerd met die van een andere respondentengroep.\n\nVoor elk afzonderlijk item met minder dan drie reacties per respondentengroep, wordt 'Onvoldoende Antwoorden' weergegeven.",
+        "reportN": "Rapport N",
+        "nominatedN": "Genomineerde N",
+        "responseRate": "Responspercentage"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Competentie Radargrafiek",
+            "subtitle": "Hoe de radargrafiek te lezen",
+            "description": "De radar grafiek is een dashboard van leiderschapseffectiviteit dat het gemakkelijk maakt om sterke punten en gebieden om te ontwikkelen te identificeren. Dit overzicht van competenties op hoog niveau is een goed startpunt om de details van het gedrag in kaart te brengen.\n\nDit gedeelte toont de percentielrang van de competenties voor de Self antwoorden evenals de percentielrang van alle respondenten die berekend is zonder de Self antwoorden.",
+            "pointATitle": "Cluster",
+            "pointA": "Succes Verzekeren, Continue Veranderen, Mensen Betrekken, Onbegrensde Inclusie, Communicatie.",
+            "pointBTitle": "Competentie",
+            "pointB": "Globaal denken, anticiperen op kansen, het creëren van een gedeelde visie, mensen ontwikkelen en empoweren, diversiteit waarderen, partnerschappen opbouwen, verandering leiden, technologische kennis ontwikkelen, aanmoedigen van constructieve dialoog, klanttevredenheid verzekeren, een concurrentievoordeel behouden, persoonlijk meesterschap bereiken, leiderschap delen, integriteit aantonen."
+        },
+        "competencyOverview": {
+            "title": "Competentie Samenvatting",
+            "subtitle": "Hoe u de grafiek kunt lezen",
+            "description": "Het Competentieoverzicht splitst de beoordelingsresultaten per respondentengroep op en maakt een eenvoudige vergelijking \/ gap-analyse mogelijk. De N staat voor het totale aantal ontvangen antwoorden voor alle items in elk van de respectieve competenties.",
+            "pointATitle": "Competentie (Cluster)",
+            "pointA": "In dit voorbeeld is “Integriteit Aantonen” de competentie in de cluster “Communicatie”.",
+            "pointBTitle": "Respondenten Groepsgemiddelde",
+            "pointB": "Het gemiddelde van elk item wordt gebruikt om het gemiddelde van deze competentie te berekenen.",
+            "pointCTitle": "Normatief Groepsgemiddelde",
+            "pointC": "Dit wordt gegeven om de gemiddelde beoordelingen van de deelnemer te vergelijken met die van anderen die hebben deelgenomen aan dit beoordelingsproces als onderdeel van de globale referentiegroep (norm).",
+            "pointDTitle": "Lijn grafiek",
+            "pointD": "Gemiddelde eigenbeoordeling ",
+            "pointETitle": "Geldige N",
+            "pointE": "Aantal ontvangen reacties voor alle items per respondentengroep. In dit voorbeeld zijn uit de groep medewerkers 15 reacties ingediend op de items in deze competentie. Houd er rekening me dat N niet noodzakelijkerwijze gelijk is aan het aantal genomineerde respondenten.",
+            "pointFTitle": "Verdeling",
+            "pointF": "In iedere cirkel kunt u het aantal deelnemers zien die op elke beoordelingsschaal hebben geantwoord. In dit voorbeeld antwoordde \"Zelf\" met \"Tevreden (4)\" op 5 items die deze competentie vormen.",
+            "pleaseNote": "Let op: het Focused GLA360-rapport bevat details voor de leider en alle respondenten. De inzichten per breakout-groep (Managers, Direct Reports, Peers en Others) zijn beschikbaar in het volledige GLA360-rapport."
+        },
+        "itemMatrix": {
+            "subtitle": "Hoe kunt u de item Matrix lezen",
+            "description": "In deze sectie worden alle items binnen een competentie per respondentengroep gemiddeld. De N staat voor het totale aantal antwoorden dat is ontvangen voor alle items in de competenties.",
+            "pointATitle": "Respondenten Groepsgemiddelde",
+            "pointA": "Het gemiddelde van elk item wordt gebruikt om het gemiddelde van deze competentie te berekenen.",
+            "pointBTitle": "Item",
+            "pointB": "Lijst met gestelde vragen die in het door de respondenten ingediende vragenlijst werden gesteld.",
+            "pointCTitle": "Percentiel Rangschikking",
+            "pointC": "Percentielen zijn een indicatie van hoe de gemiddelde score van het individu op een bepaald item zich verhoudt tot die van anderen die dit assessmentproces hebben doorlopen en dit onderzoek hebben gebruikt als onderdeel van de algemene referentiegroep. In het bovenstaande voorbeeld is het percentiel voor het beoordeling van collega's 64. Dit geeft aan dat 36% van de andere personen die feedback over dit onderwerp kregen, een hogere score hebben gekregen dan de deelnemer. 64% van de algemene referentiegroep kreeg een score die gelijk is aan of lager is dan de score van het individu op dit specifieke item.",
+            "pointDTitle": "Lijn grafiek",
+            "pointD": "Om de anonimiteit van de respondenten te beschermen worden gemiddelden niet weergegeven als er twee of minder reacties zijn.",
+            "pointETitle": "Geen antwoorden",
+            "pointE": "Dit geeft aan dat er geen antwoorden zijn op deze vraag."
+        },
+        "HighestItem": {
+            "title": "Items met de Hoogste Score",
+            "subtitle": "Hoe u de grafiek kunt lezen",
+            "description1": "Het overzicht met de hoogst gewaardeerde items geeft de sterke punten van leiderschap weer op drie niveaus: Gedrag op item niveau, competentie en cluster. Dit maakt het makkelijk om overeenkomsten en thema's te identificeren om de sterke punten van leiderschap en gebieden van hoge effectiviteit binnen en tussen respondentengroepen samen te vatten.",
+            "description2": "Het aantal vermelde items komt overeen met de top 10% van alle gemiddelde scores voor elk item uit de beoordeling per respondentengroep. Als hetzelfde onderwerp in de top 10% van de andere respondentengroepen wordt beoordeeld, wordt dit gemarkeerd met een groene stip (zie C). Als het gemiddelde van een onderwerp lager is dan 2,00, wordt het niet vermeld als het best beoordeelde onderwerp.",
+            "pointATitle": "Competentie, Cluster, Item",
+            "pointA": "Hier staat het item en de competentie en cluster waartoe het behoort. In dit voorbeeld is 'Integriteit Aantonen' de competentie in de cluster 'Communicatie'.",
+            "pointBTitle": "Respondenten groepsgemiddelde",
+            "pointB": "De gemiddelde score van het item.",
+            "pointCTitle": "Terugkerend item",
+            "pointC": "Dit geeft aan dat dit item ook als hoogste item wordt vermeld in andere respondentengroepen. U kunt dit herkennen aan een groene stip.",
+            "pointDTitle": "Verdeling",
+            "pointD": "Het getal in de cirkel geeft aan hoeveel respondenten op elke beoordelingsschaal hebben gereageerd. In dit voorbeeld antwoordden 3 respondenten met \"Zeer tevreden\" en 2 respondenten met \"Tevreden\"."
+        },
+        "LowestItem": {
+            "title": "Items met de Laagste Score",
+            "subtitle": "Hoe u de grafiek kunt lezen",
+            "description1": "Het overzicht van de items met de laagste score vat de te ontwikkelen gebieden samen op drie niveaus: Item gedragsniveau, competentie en cluster. Dit maakt het gemakkelijk om overeenkomsten te identificeren tussen de respondentgroepen en ontwikkelingspotentieel op het gebied van leiderschap samen te vatten.",
+            "description2": "Het aantal genoemde items komt overeen met de onderste 10% van alle gemiddelde waarden voor elk onderwerp uit de resultaten per respondentengroep. Als hetzelfde item in de onderste 10% van de andere respondentengroepen wordt beoordeeld, wordt dit aangegeven met een gele stip (zie C). Als het gemiddelde van een item hoger is dan 4,00, wordt dit niet vermeld als het item met de laagste beoordeling.",
+            "pointATitle": "Competentie, Cluster, Item",
+            "pointA": "Hier vindt u het onderwerp en de competentie en cluster waartoe het behoort.",
+            "pointBTitle": "Respondenten groepsgemiddelde",
+            "pointB": "De gemiddelde score op het item",
+            "pointCTitle": "Terugkerend item",
+            "pointC": "Dit geeft aan dat dit item ook als laagste wordt gerapporteerd in andere respondentengroepen en gemarkeerd is met een gele stip.",
+            "pointDTitle": "Verdeling",
+            "pointD": "Het getal in elke cirkel geeft aan hoeveel deelnemers op elke beoordelingsschaal hebben gereageerd. In dit voorbeeld antwoordde 1 respondent \"Zeer ontevreden\", 4 respondenten antwoordden \"Ontevreden\" en 5 respondenten antwoordden \"Niet tevreden noch ontevreden\"."
+        },
+        "significantGap": {
+            "title": "Significante Verschillen",
+            "subtitle": "Hoe u de grafiek kunt lezen",
+            "description1": "Het overzicht van de significante verschillen zet aan tot een constructieve dialoog over hoe de deelnemer zich zelf en hoe hij\/zij door anderen wordt waargenomen. Dit helpt de deelnemer om effectief over te gaan van bewustzijn naar acceptatie en actie.",
+            "description2": "U ziet de opvallende verschillen tussen uzelf en de respondentengroepen. Alle items met een gemiddeld scoreverschil van meer dan 30% worden vermeld. In het onderstaande voorbeeld wordt het verschil tussen uw zelfbeoordeling en de perceptie van Collega's getoond.",
+            "pointATitle": "Competentie, Cluster, Item",
+            "pointA": "Hierin vindt u het item en de competentie en cluster waartoe het behoort.",
+            "pointBTitle": "Respondenten Groepsgemiddelde",
+            "pointB": "Dit is het gemiddelde van een specifieke respondentengroep voor het item. In dit geval gaat het om de respondentengroep collega's. De hoogst en laagst beoordeelde items in deze groep worden aangegeven met de groene en gele pijlen.",
+            "pointCTitle": "Gemiddelde Eigenbeoordeling",
+            "pointC": "Dit is het gemiddelde van een specifieke respondentengroep voor het item. De items met de hoogste en de laagste scores van Eigenbeoordeling worden ook aangegeven met de groene en gele pijlen.",
+            "pointDTitle": "Verschil",
+            "pointD": "Dit is het verschil tussen de respondentengroep en de gemiddelde eigenbeoordeling, gerangschikt van het grootste positieve verschil naar het grootste negatieve verschil."
+        }
+    },
+    "percentileRadar": {
+        "old_percentileRadar": {
+            "one": "Leeg",
+            "other": "Leeg"
+        },
+        "title": "Competentie Radargrafiek",
+        "one": "Een",
+        "other": "Anderen"
+    },
+    "competencyOverview": {
+        "percentileRank": "Percentiel Rangschikking"
+    },
+    "itemMatrix": {
+        "title": "Item Matrix"
+    },
+    "HighLowItems": {
+        "titleHigh": "Items met de Hoogste Score",
+        "titleLow": "Items met de Laagste Score"
+    },
+    "highLowItems": {
+        "titleHigh": "Items met de Hoogste Score",
+        "titleLow": "Items met de Laagste Score"
+    },
+    "significantGaps": {
+        "title": "Significante Verschillen",
+        "self_vs_all_rater": "Alle Respondenten vs. Eigenbeoordeling",
+        "self_vs_direct_report": "Direct Reports vs. Self",
+        "self_vs_manager": "Managers vs. Eigenbeoordeling",
+        "self_vs_other": "Anderen vs. Eigenbeoordeling",
+        "self_vs_peer": "Collega's vs. Eigenbeoordeling",
+        "tableHeader": {
+            "self_vs_all_rater": "Alle Respondenten Gem.",
+            "self_vs_direct_report": "Medewerkers Gem.",
+            "self_vs_manager": "Managers Gem.",
+            "self_vs_other": "Anderen Gem.",
+            "self_vs_peer": "Collega's Gem.",
+            "self": "Zelf Gem.",
+            "gap": "Verschil"
+        }
+    },
+    "verbatim": {
+        "title": "Schriftelijke opmerkingen",
+        "intro": "Opmerkingen van uw respondenten worden ingedeeld naar respondentengroep. Indien nodig worden deze bewerkt of opgeschoond om de anonimiteit van de respondenten te waarborgen. Grammaticale en typografische fouten worden gecorrigeerd zonder de inhoud van de boodschap te wijzigen. In geaggregeerde rapporten worden geen opmerkingen weergegeven.",
+        "pleaseNote": "Let op: vanwege de gevoelige aard van de schriftelijke opmerkingen geeft het Focused GLA360-rapport alleen de antwoorden op vraag 73 weer. De antwoorden op vraag 74 en 75 zijn opgenomen in het volledige GLA360-rapport."
+    },
+    "demographics": {
+        "func_area": "Functiegebied",
+        "org_lvl": "Organizatieniveau",
+        "time_in_curr_role": "Tijd in huidge functie",
+        "industry": "Industrie",
+        "age_group": "Leeftijdsgroep",
+        "gender": "Geslacht"
+    },
+    "competencyBrief": {
+        "title": "Kerncompetenties",
+        "blindSpots": "Blinde vlekken",
+        "strength": "Sterke punten",
+        "unknown": "Onbekend",
+        "hiddenStrength": "Verborgen sterke punten",
+        "description": "Hierboven een overzicht van de drie meest herkenbare competenties (gerangschikt op percentielscores) binnen elk kwadrant. Percentielen worden berekend op basis van een normgroep van internationale leiders uit een groot aantal landen, leeftijden, organisatieniveaus, bedrijfstakken en opleidingsachtergronden.",
+        "blindSpotsDescription": "Dit zijn competenties die collega's herkennen als sterke punten, maar de leider niet.",
+        "strengthDescription": "Dit zijn competenties die zowel de leider als de collega's herkennen als sterke punten van de leider.",
+        "unknownDescription": "Dit zijn competenties die niet worden erkend door zowel de leider als de collega's.",
+        "hiddenStrengthDescription": "Dit zijn competenties waarvan de collega's zich niet bewust zijn of die zij niet herkennen als sterke punten van de leider.",
+        "combinedTitle": "Competentie Highlights & Map"
+    },
+    "competencyMap": {
+        "title": "Competentie Overzicht",
+        "subtitle": "Percentiel rang naar competentie",
+        "selfRank": "Self (Percentielrang)",
+        "respondentRank": "All Respondents (Percentielrang)"
+    },
+    "competencyDescription": {
+        "title": "Competentieoverzicht",
+        "category": {
+            "assureSuccess": {
+                "title": "Succes Verzekeren",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Technologische Kennis Ontwikkelen",
+                        "description_1": "Begrijpen hoe de toepassing van technologie de productiviteit van mensen en de zakelijke effectiviteit zal verhogen om te slagen in de wereld van morgen."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Klanttevredenheid Garanderen",
+                        "description_1": "Zorgen voor samenwerking tussen functies\/teams om hoogwaardige diensten\/producten te leveren en mensen te inspireren om continu een hogere klanttevredenheid te bereiken."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Concurrentievoordeel Behouden",
+                        "description_1": "Effectief leiden van de continue verbetering van:",
+                        "list_1": "Sneller betere resultaten produceren",
+                        "list_2": "Intellectueel kapitaal mobiliseren in de organisatie",
+                        "list_3": "Eliminatie van verspilling en onnodige kosten",
+                        "list_4": "Levering van producten en diensten",
+                        "list_5": "Aandeelhouderswaarde op lange termijn realiseren"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Voortdurend Veranderen",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Het bereiken van Persoonlijk Meesterschap",
+                        "description_1": "Leiders verbeteren hun leiderschapseffectiviteit \"van binnen naar buiten\" door:",
+                        "list_1": "Verhoogd zelfbewustzijn rond gedrag, drijfveren, persoonlijke voorkeuren, enz.",
+                        "list_2": "Beheer van zijn\/haar emoties en gedrag",
+                        "list_3": "Opvullen van lacunes in de vaardigheden"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Op Kansen Anticiperen",
+                        "list_1": "Toekomstige trends onderzoeken",
+                        "list_2": "Anticiperen op toekomstige kansen",
+                        "list_3": "Naar de toekomst kijken",
+                        "list_4": "Ideeën ontwikkelen om aan de behoeften van nieuwe omgevingen te voldoen"
+                    },
+                    "leading_change": {
+                        "title": "Verandering Leiden",
+                        "list_1": "Verandering is een kans",
+                        "list_2": "Leiderschap versus management: de status quo uitdagen",
+                        "list_3": "Flexibiliteit",
+                        "list_4": "Creativiteit aanmoedigen",
+                        "list_5": "Ideeën omzetten in resultaten"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Mensen Betrekken",
+                "table": {
+                    "developing_people": {
+                        "title": "Mensen Ontwikkelen",
+                        "description_1": "Betrek high-impact artiesten door:",
+                        "list_1": "Opleiding en coaching (feedback\/feedforward)",
+                        "list_2": "Respect en waardigheid tonen",
+                        "list_3": "Belonen en erkennen van prestaties",
+                        "list_4": "Een bloeiende omgeving creëren"
+                    },
+                    "building_partnerships": {
+                        "title": "Partnerschappen Opbouwen",
+                        "list_1": "Vertrouwen opbouwen",
+                        "list_2": "Richt zich proactief op een positieve agenda",
+                        "list_3": "Het smeden van partnerschappen en allianties in de hele organisatie",
+                        "list_4": "Creëren van netwerken buiten de organisatie"
+                    },
+                    "sharing_leadership": {
+                        "title": "Leiderschap Delen",
+                        "description_1": "Het afvlakken van organisaties met matrixstructuren, partnerschapsallianties en outsourcing van bedrijfsprocessen resulteert in een brede en diepe spreiding van expertise, macht, autoriteit en beslissingen in de organisatie, lateraal en verticaal.",
+                        "description_2": "Een team van leiders opbouwen door:",
+                        "list_1": "Het creëren van een bredere basis van senior managementervaring, deskundige kennis en complementaire sterke punten",
+                        "list_2": "Zijn\/haar beperkingen kennen en vertrouwen op hun talenten\/experts",
+                        "list_3": "Samenwerking gericht op het opbouwen van vertrouwen om een gemeenschappelijke agendavisie te realiseren",
+                        "list_4": "Overgaan van \"één goede manier\" naar \"de beste manier op dit moment\""
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Onbegrensde Inclusie",
+                "table": {
+                    "empowering_people": {
+                        "title": "Empower Mensen",
+                        "list_1": "Bouw vertrouwen op door training op functionele vaardigheden",
+                        "list_2": "Neem berekende risico's door kansen te bieden voor toepassing en groei",
+                        "list_3": "Geef vrijheid door het proces stap voor stap los te laten, zodat mensen de ruimte krijgen om in hun kracht te staan",
+                        "list_4": "Creëer vertrouwen door prestaties aan te moedigen met behulp van een vertrouwd proces"
+                    },
+                    "thinking_globally": {
+                        "title": "Globaal Denken",
+                        "description_1": "Technologische vooruitgang heeft een grenzeloze onderling verbonden wereldwijde omgeving gecreëerd. Dit leidt tot:",
+                        "list_1": "Hogere normen op het gebied van klantenservice, innovatie, enz.",
+                        "list_2": "Allianties tussen regeringen, industrieën en organisaties",
+                        "list_3": "Een mondiaal perspectief hebben met multiculturele ervaring in verschillende bedrijven"
+                    },
+                    "appreciating_diversity": {
+                        "title": "Diversiteit Waarderen",
+                        "list_1": "Belangstelling hebben voor, zich op hun gemak voelen bij en waardering hebben voor verschillen ten gevolge van cultuur, godsdienst, geslacht, persoonlijkheid, onderwijsachtergrond, leeftijd\/generatie en denkstijlen",
+                        "list_2": "Maak gebruik van verschillen om nieuwe perspectieven te krijgen",
+                        "list_3": "Leer te differentiëren in het motiveren van mensen"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Communicatie",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Integriteit tonen",
+                        "description_1": "Leid jezelf, anderen en de cultuur door:",
+                        "list_1": "Rolmodel eerlijkheid, ethisch gedrag en organisatiewaarden",
+                        "list_2": "Vertrouwd worden om mensen in de juiste richting te leiden",
+                        "list_3": "Mensen in het proces respecteren",
+                        "list_4": "Zorgen voor een constructieve organisatiecultuur"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Constructieve Dialoog Stimuleren",
+                        "description_1": "Consistente communicatie bij het delen van leiderschap door:",
+                        "list_1": "Vragen stellen om feedback, feedforward en nieuwe ideeën te verkrijgen",
+                        "list_2": "Luisteren met een open geest",
+                        "list_3": "Constructieve feedback accepteren",
+                        "list_4": "Zich in andermans schoenen verplaatsen (empathie)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Een Gedeelde Visie Creëren",
+                        "description_1": "Visie creëren door:",
+                        "list_1": "Goed naar anderen luisteren.",
+                        "list_2": "Creativiteit en innovatie bij anderen stimuleren.",
+                        "list_3": "De visie ondersteunen met strategie",
+                        "list_4": "Rollen en prioriteiten definiëren"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Volgende stappen",
+        "description_1": "Het GLA360-rapport is specifiek en opzettelijk ontworpen om waardevol inzicht te bieden in de 15 belangrijkste competenties voor de leider van vandaag in een internationaliserende zakelijke omgeving.",
+        "description_2": "Het nemen van een 360-graden-assessment is een spannende eerste stap om een betekenisvolle verandering in uw leiderschapstraject aan te brengen. Als u meer wilt lezen en uw leiderschapsontwikkeling gaande wilt houden, ga dan naar ons informatiecentrum op {link} .",
+        "information_free": "Het gratis GLA360-rapport geeft een kort overzicht van de beoordeling. Als u meer inzicht wilt krijgen in uw leiderschapsresultaten, kunt u via deze link toegang krijgen tot een gefocust GLA360-rapport of een volledig GLA360-rapport met een debriefing met een gecertificeerde coach: {link} .",
+        "information_focused": "Als u meer inzicht wilt krijgen in uw leiderschapsresultaten, kunt u toegang krijgen tot uw volledige GLA360-rapport en een debriefing met een gecertificeerde coach plannen via deze link: {link} ."
+    },
+    "interactive": {
+        "theme": "Thema",
+        "light_mode": "Lichte modus",
+        "dark_mode": "Donkere modus",
+        "download_pdf": "Download PDF",
+        "share": "Deel",
+        "howToRead": "Hoe te lezen",
+        "mapPlaceholder": "Neem contact op met {email} om de hoogtepunten en de competentiekaart te bekijken en uw verslag opnieuw te genereren.",
+        "summaryPlaceholder": "Klik op een competentie om de competentiesamenvatting te bekijken",
+        "competenciesToView": "Te bekijken competenties",
+        "quickNavigation": "snelle navigatie"
+    }
+}

@@ -1,0 +1,349 @@
+{
+    "header": {
+        "ReportOfLeader": "Rapport de rétroaction GLA pour <b>{leader}<\/b>",
+        "reportOfLeader": "Rapport de rétroaction GLA pour <b>{leader}<\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Aperçu des répondants",
+        "competencyPercentiles": "Centiles de compétence",
+        "competencyOverview": "Résumé des compétences",
+        "highestRatedItems": "Éléments les mieux notés",
+        "lowestRatedItems": "Éléments les moins bien notés",
+        "significantGaps": "Écarts importants",
+        "writtenComments": "Commentaires écrits",
+        "pageTitle": "Contenu du rapport de rétroaction",
+        "competencyBrief": "Points forts de la compétence",
+        "competencyMap": "Carte des compétences",
+        "combinedCompetency": "Points forts et carte des compétences",
+        "competencyDescription": "Aperçu des compétences",
+        "abbreviated": "Abrégé",
+        "topFive": "Top 5"
+    },
+    "relationships": {
+        "self": "Soi",
+        "managers": "Managers",
+        "direct_reports": "Rapports directs",
+        "peers": "Pairs",
+        "others": "Autres",
+        "all_respondents": "Tous les répondants",
+        "leader": "Soi",
+        "respondents": "Tous les répondants"
+    },
+    "common": {
+        "total": "Total",
+        "no_information": "Aucune information",
+        "no_response": "Pas de réponse",
+        "average": "Moyenne",
+        "country": "Pays",
+        "language": "Langue",
+        "noDataDisplay": "Aucune donnée à afficher",
+        "focusedNote": "Remarque : le rapport GLA360 ciblé ne comprend que les cinq éléments les plus importants de cette catégorie. La liste complète des éléments est disponible dans le Rapport GLA360 complet."
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>Rapport de rétroaction<\/b> pour <b>{leader}<\/b>",
+        "publishedAt": "Publié le {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Aperçu des répondants",
+        "descriptionTable": "Les chiffres ci-dessous représentent le nombre d'enquêtes réalisées et soumises par chaque groupe de répondants avant la date limite. Veuillez noter que ces chiffres ne reflètent pas nécessairement le nombre de réponses que vous avez reçues sur chaque élément, car certaines personnes peuvent ne pas vous avoir donné leur avis sur chaque élément. Ces chiffres ne représentent que les évaluations réalisées et soumises.",
+        "descriptionData": "Afin de préserver l'anonymat, votre rapport de rétroaction n'affichera pas les réponses des groupes de répondants anonymes (par exemple, les Rapports directs, Pairs, Autres) ayant soumis moins de trois enquêtes. Si moins de trois enquêtes ont été reçues d'un groupe de répondants, leurs notes seront combinées avec celles d'un autre groupe de répondants.\n\nPour tout élément unique ayant moins de trois réponses dans un groupe de répondants, la mention \"Réponses insuffisantes\" apparaîtra pour cet élément au lieu des données.",
+        "reportN": "N Rapport",
+        "nominatedN": "N Nominé",
+        "responseRate": "Taux de réponse"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Graphique radar des centiles de compétence",
+            "subtitle": "Comment lire la matrice des éléments",
+            "description": "Le graphique radar est un tableau de bord de l'efficacité du leadership qui permet d'identifier facilement les forces et les domaines à développer. Cet aperçu des compétences de haut niveau est un bon point de départ pour approfondir les détails du comportement. \n\n Cette section trace le rang des centiles de compétence pour les réponses de Soi ainsi que le rang des centiles de Tous les répondants qui est calculé sans les réponses de Soi.",
+            "pointATitle": "Groupe",
+            "pointA": "Assurer le succès, le changement continu, engager les gens, l'inclusion sans frontières, la communication.",
+            "pointBTitle": "Compétence",
+            "pointB": "Penser globalement, anticiper les opportunités, créer une vision partagée, développer les personnes, responsabiliser les personnes, apprécier la diversité, construire des partenariats, conduire le changement, développer le savoir-faire technologique, encourager un dialogue constructif, assurer la satisfaction des clients, maintenir un avantage concurrentiel, atteindre une maîtrise personnelle, partager le leadership, faire preuve d'intégrité."
+        },
+        "competencyOverview": {
+            "title": "Résumé des compétences",
+            "subtitle": "Comment lire le graphique",
+            "description": "Le graphique radar est un tableau de bord de l'efficacité du leadership qui permet d'identifier facilement les points forts et les domaines à développer. Cet aperçu des compétences de haut niveau est un bon point de départ pour approfondir les détails du comportement.\n\nCette section indique le rang centile des compétences pour les réponses personnelles ainsi que le rang centile de tous les répondants qui est calculé sans les réponses personnelles.",
+            "pointATitle": "Compétence (groupe)",
+            "pointA": "Dans cet exemple, \"Faire preuve d'intégrité\" est la compétence du groupe \"Communication\".",
+            "pointBTitle": "Moyenne du groupe de répondants",
+            "pointB": "La moyenne de chaque élément est utilisée pour calculer la moyenne de cette compétence.",
+            "pointCTitle": "Moyenne du groupe normatif",
+            "pointC": "Cette information est fournie pour comparer les notes moyennes des participants à celles d'autres personnes ayant participé à ce processus d'évaluation dans le cadre du groupe normatif mondial.",
+            "pointDTitle": "Graphique linéaire",
+            "pointD": "Note moyenne de Soi",
+            "pointETitle": "N valide",
+            "pointE": "Nombre de réponses reçues pour tous les éléments par groupe de répondants. Dans cet exemple, du groupe des Rapports directs, 15 réponses ont été soumises aux éléments de cette compétence. Notez que N n'est pas nécessairement égal au nombre de répondants nommés.",
+            "pointFTitle": "Distribution",
+            "pointF": "Les chiffres dans chaque cercle indiquent le nombre de participants qui ont répondu à chaque échelle de notation. Dans cet exemple, \"Soi\" a répondu \"Satisfait (4)\" à 5 éléments qui constituent cette compétence.",
+            "pleaseNote": "Remarque : le rapport GLA360 ciblé comprend les détails relatifs au leader et à toutes les personnes interrogées. Les informations par groupe (Managers, Rapports directs, Pairs et Autres) sont disponibles dans le rapport GLA360 complet."
+        },
+        "itemMatrix": {
+            "subtitle": "Comment lire la matrice des éléments",
+            "description": "Cette section fait la moyenne de toutes les évaluations d'éléments d’une compétence par groupe de répondants. Le N signifie le nombre total de réponses reçues pour tous les éléments de chacune des compétences respectives.",
+            "pointATitle": "Moyenne du groupe de répondants",
+            "pointA": "La moyenne de chaque élément est utilisée pour calculer la moyenne de cette compétence.",
+            "pointBTitle": "Élément",
+            "pointB": "Liste des questions posées dans le cadre de l'enquête que les répondants ont soumise.",
+            "pointCTitle": "Rang centile",
+            "pointC": "Les centiles indiquent comment la note moyenne d'un individu pour un élément particulier se compare à celui d'autres personnes qui ont suivi ce processus d'évaluation et utilisé cette enquête comme faisant partie du groupe de référence mondial. Dans l'exemple ci-dessus, le centile pour la note des Pairs est de 64. Cela indique que 36% des autres personnes qui ont reçu des commentaires sur cet élément ont obtenu une note plus élevée que le participant. 64% du groupe de référence mondial ont reçu une note égale ou inférieure à la note de l'individu sur cet élément particulier.",
+            "pointDTitle": "Graphique linéaire",
+            "pointD": "Les moyennes ne sont pas affichées lorsqu'il y a 2 réponses ou moins afin de protéger l'anonymat des répondants.",
+            "pointETitle": "Pas de réponse",
+            "pointE": "Cela indique qu'il n'y a pas eu de réponses à cette question."
+        },
+        "HighestItem": {
+            "title": "Éléments les mieux notés",
+            "subtitle": "Comment lire le graphique",
+            "description1": "La présentation des éléments les mieux notés résume les points forts du leadership à trois niveaux : Comportement, compétence et groupe au niveau de l'élément. Il est ainsi très facile d'identifier les points communs et les thèmes pour résumer les points forts en matière de leadership et les domaines d'efficacité de haut niveau au sein et entre les groupes de répondants.",
+            "description2": "Le nombre d'éléments énumérés correspond aux 10 % supérieurs de toutes les notes moyennes de chaque élément de l'évaluation par groupe de répondants. Si le même élément est classé dans les 10 % supérieurs des autres groupes de répondants, il est indiqué par le point vert (voir C). En outre, si la moyenne d'un élément est inférieure à 2.00, l'élément ne sera pas répertorié comme un élément ayant obtenu la meilleure note.",
+            "pointATitle": "Compétence, groupe, élément",
+            "pointA": "Cette liste énumère l'élément, la compétence et le groupe auquel il appartient. Dans cet exemple, \"Faire preuve d'intégrité\" est la compétence du groupe \"Communication\".",
+            "pointBTitle": "Moyenne du groupe de répondants",
+            "pointB": "La note moyenne de l'élément.",
+            "pointCTitle": "Élément récurrent",
+            "pointC": "Cela indique que cet élément est également considéré comme l'élément le plus élevé dans d’autres groupes de répondants et est mis en évidence par un point vert.",
+            "pointDTitle": "Distribution",
+            "pointD": "Le nombre dans chaque cercle indique le nombre de participants ayant répondu dans chaque échelle de notation. Dans cet exemple, 3 participants ont répondu «Très satisfait» et 2 participants ont répondu «Satisfait»."
+        },
+        "LowestItem": {
+            "title": "Éléments les moins bien notés",
+            "subtitle": "Comment lire le graphique",
+            "description1": "La présentation des éléments les moins bien notés résume les domaines à développer à trois niveaux : Comportement, compétence et groupe au niveau de l'élément. Il est ainsi très facile d'identifier les points communs et les thèmes pour résumer les domaines à développer en matière de leadership au niveau les différents groupes de répondants.",
+            "description2": "Le nombre d'éléments énumérés correspond aux 10 % inférieurs de toutes les notes moyennes de chaque élément de l'évaluation par groupe de répondants. Si le même élément est classé dans les 10 % inférieurs des autres groupes de répondants, il est indiqué par un point jaune (voir C). En outre, si la moyenne d'un élément est supérieure à 4.00, l'élément ne sera pas répertorié comme un élément ayant la note la plus basse.",
+            "pointATitle": "Compétence, groupe, élément",
+            "pointA": "Ceci répertorie l'élément et la compétence et le groupe auquel il appartient.",
+            "pointBTitle": "Moyenne du groupe de répondants",
+            "pointB": "La note moyenne de l'élément.",
+            "pointCTitle": "Élément récurrent",
+            "pointC": "Cela indique que cet élément est également signalé comme l'élément le plus bas dans d'autres groupes de répondants et est mis en évidence par un point jaune.",
+            "pointDTitle": "Distribution",
+            "pointD": "Le nombre dans chaque cercle indique le nombre de participants ayant répondu dans chaque échelle de notation. Dans cet exemple, 1 participant a répondu «Très insatisfait», 4 participants ont répondu «Insatisfait» et 5 participants ont répondu «Ni satisfait ni insatisfait»."
+        },
+        "significantGap": {
+            "title": "Écarts importants",
+            "subtitle": "Comment lire le graphique",
+            "description1": "L'aperçu des écarts significatifs entraîne un dialogue constructif autour de la conscience de soi et de la perception par les autres qui aide le participant à passer efficacement de la prise de conscience à l'acceptation\/l'action.",
+            "description2": "Les écarts significatifs sont indiqués entre Soi et chaque groupe de participants. Tous les éléments ayant une différence de note moyenne supérieure à 30 % sont répertoriés.",
+            "pointATitle": "Compétence, groupe, élément",
+            "pointA": "Ceci répertorie l'élément et la compétence et le groupe auquel il appartient.",
+            "pointBTitle": "Moyenne du groupe de répondants",
+            "pointB": "Il s'agit de la moyenne d'un groupe spécifique de répondants pour l'élément. Dans ce cas, le groupe de répondants est celui des Pairs. Les éléments les mieux notés et les éléments les moins bien notés dans le groupe respectif sont indiqués par les flèches vertes et jaunes.",
+            "pointCTitle": "Moyenne de Soi",
+            "pointC": "Il s'agit de la moyenne d'un groupe spécifique de répondants pour l'élément. Les éléments les mieux notés et les éléments les moins bien notés de Soi sont également indiqués par les flèches vertes et jaunes.",
+            "pointDTitle": "Écart",
+            "pointD": "Il s'agit de la différence entre le groupe de répondants et la moyenne de Soi, triée du plus grand écart positif au plus grand écart négatif."
+        }
+    },
+    "percentileRadar": {
+        "title": "Graphique radar des centiles de compétence"
+    },
+    "competencyOverview": {
+        "percentileRank": "Rang centile"
+    },
+    "itemMatrix": {
+        "title": "Matrice des éléments"
+    },
+    "HighLowItems": {
+        "titleHigh": "Comment lire le graphique",
+        "titleLow": "Éléments les moins bien notés"
+    },
+    "highLowItems": {
+        "titleHigh": "Éléments les mieux notés",
+        "titleLow": "Éléments les moins bien notés"
+    },
+    "significantGaps": {
+        "title": "Écarts importants",
+        "self_vs_all_rater": "Tous les répondants face à Soi",
+        "self_vs_direct_report": "Rapports directs face à Soi",
+        "self_vs_manager": "Managers face à Soi",
+        "self_vs_other": "Autres face à Soi",
+        "self_vs_peer": "Pairs face à Soi",
+        "tableHeader": {
+            "self_vs_all_rater": "Moyenne de Tous les répondants",
+            "self_vs_direct_report": "Moyenne de Rapports directs",
+            "self_vs_manager": "Moyenne de Managers",
+            "self_vs_other": "Moyenne des Autres",
+            "self_vs_peer": "Moyenne de Pairs",
+            "self": "Moyenne de Soi",
+            "gap": "Écart"
+        }
+    },
+    "verbatim": {
+        "title": "Commentaires écrits",
+        "intro": "Les commentaires de vos répondants sont classés par groupe de répondants. Nous pourrions éditer ou nettoyer les commentaires afin de préserver l'anonymat des répondants. Des erreurs grammaticales et typographiques évidentes peuvent avoir été corrigées, sans altérer le contenu du message. Les commentaires n'apparaîtront pas sur les rapports globaux.",
+        "pleaseNote": "Remarque : En raison de la nature délicate des commentaires écrits, le rapport GLA360 ciblé n’affiche que les réponses à la question 73. Les réponses aux questions 74 et 75 figurent dans le rapport GLA360 complet."
+    },
+    "demographics": {
+        "func_area": "Domaine d'activité",
+        "org_lvl": "Niveau de l'organisation",
+        "time_in_curr_role": "Durée dans le rôle actuel",
+        "industry": "Industrie",
+        "age_group": "Tranche d'âge",
+        "gender": "Genre"
+    },
+    "competencyBrief": {
+        "title": "Points forts de la compétence",
+        "blindSpots": "Les points faibles",
+        "strength": "Points forts",
+        "unknown": "Inconnu",
+        "hiddenStrength": "Les points forts cachés",
+        "description": "Vous trouverez ci-dessus un aperçu des trois compétences les plus reconnaissables (classées par scores centiles) dans chaque quadrant. Les percentiles sont calculés en fonction d’un groupe de normes de leaders internationaux provenant d’un large éventail de pays, d’âges, de niveaux d’organisation, d’industries et de niveaux d’éducation.",
+        "blindSpotsDescription": "Ce sont des compétences que les collègues reconnaissent comme des points forts, mais pas le leader.",
+        "strengthDescription": "Ce sont des compétences que le leader et ses collègues reconnaissent comme des points forts du leader.",
+        "unknownDescription": "Ce sont des compétences que les collègues reconnaissent comme des points forts, mais pas le leader.",
+        "hiddenStrengthDescription": "Ce sont des compétences que les collègues ignorent ou ne reconnaissent pas comme des forces du leader.",
+        "combinedTitle": "Points forts et carte des compétences"
+    },
+    "competencyMap": {
+        "title": "Carte des compétences",
+        "subtitle": "Rang centile par compétence",
+        "selfRank": "Soi (Classement percentile)",
+        "respondentRank": "Tous les participants (Rang percentile)"
+    },
+    "competencyDescription": {
+        "title": "Aperçu des compétences",
+        "category": {
+            "assureSuccess": {
+                "title": "Assurer le succès",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Développer le savoir-faire technologique",
+                        "description_1": "Comprendre comment l'utilisation de la technologie augmentera la productivité des personnes et l'efficacité des entreprises pour réussir dans le monde de demain."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Assurer la satisfaction du client",
+                        "description_1": "Assurer la collaboration entre les fonctions\/équipes pour fournir des services\/produits de qualité et inspirer les gens à atteindre en permanence des niveaux plus élevés en matière de satisfaction des clients."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Maintenir un avantage concurrentiel",
+                        "description_1": "Diriger efficacement l'amélioration continue de :",
+                        "list_1": "Produire de meilleurs résultats plus rapidement",
+                        "list_2": "Mobiliser le capital intellectuel dans l'organisation",
+                        "list_3": "Éliminer le gaspillage et les coûts inutiles",
+                        "list_4": "Livraison de produits et de services",
+                        "list_5": "Obtenez des résultats qui conduisent à une valeur actionnariale à long terme."
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Changement continu",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Atteindre la maîtrise personnelle",
+                        "description_1": "Les leaders améliorent leur efficacité en matière de leadership \"de l'intérieur vers l'extérieur\" :",
+                        "list_1": "Une meilleure conscience de soi concernant les comportements, les motivations, les préférences personnelles, etc.",
+                        "list_2": "Contrôler ses émotions et de ses comportements",
+                        "list_3": "Combler ses lacunes en matière de compétences"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Anticiper les opportunités",
+                        "list_1": "Enquêter sur les tendances futures",
+                        "list_2": "Anticiper les opportunités futures",
+                        "list_3": "Regarder vers l'avenir",
+                        "list_4": "Développer des idées pour répondre aux besoins des nouveaux environnements"
+                    },
+                    "leading_change": {
+                        "title": "Diriger le changement",
+                        "list_1": "Le changement est une opportunité",
+                        "list_2": "Leadership versus management : remettre en question le statu quo (la situation actuelle)",
+                        "list_3": "Flexibilité",
+                        "list_4": "Encourager la créativité",
+                        "list_5": "Traduire les idées en résultats"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Engager les gens",
+                "table": {
+                    "developing_people": {
+                        "title": "Aider les gens à se perfectionner",
+                        "description_1": "Engager les exécutants à fort impact grâce à :",
+                        "list_1": "Formation et coaching (feedback\/feedforward)",
+                        "list_2": "Faire preuve de respect et de dignité",
+                        "list_3": "Récompenser les efforts et reconnaître les réalisations",
+                        "list_4": "Créer un environnement prospère"
+                    },
+                    "building_partnerships": {
+                        "title": "Créer des partenariats",
+                        "list_1": "Instaurer la confiance",
+                        "list_2": "Se concentrer de manière proactive sur un programme positif",
+                        "list_3": "Forger des partenariats et des alliances dans toute l'organisation",
+                        "list_4": "Créer des réseaux en dehors de l'organisation"
+                    },
+                    "sharing_leadership": {
+                        "title": "Partager le leadership",
+                        "description_1": "La hiérarchisation des organisations à l'aide de structures matricielles, d'alliances de partenariat et d'externalisation des processus d'entreprise entraîne une répartition large et profonde de l'expertise, du pouvoir, de l'autorité et des décisions dans l'organisation, latéralement et verticalement.",
+                        "description_2": "Constituer une équipe de leaders grâce à :",
+                        "list_1": "Créer une base plus large d'expérience en matière de gestion supérieure, de connaissances spécialisées et de forces complémentaires.",
+                        "list_2": "Connaître ses limites et s'en remettre à ses talents\/expertises",
+                        "list_3": "Collaboration axée sur l'instauration d'un climat de confiance pour réaliser une vision commune du programme",
+                        "list_4": "Passer de la \"bonne méthode\" à la \"la meilleure méthode en ce moment\"."
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Inclusion sans limites",
+                "table": {
+                    "empowering_people": {
+                        "title": "Renforcer l'autonomie des personnes",
+                        "list_1": "Renforcer la confiance en soi grâce à une formation sur les compétences fonctionnelles",
+                        "list_2": "Prendre des risques calculés en offrant des opportunités d'application et de croissance",
+                        "list_3": "Donner de la liberté en abandonnant le processus étape par étape afin de donner aux gens l'espace nécessaire pour être autonome",
+                        "list_4": "Créer la confiance en encourageant la réussite à l’aide d’un processus de confiance"
+                    },
+                    "thinking_globally": {
+                        "title": "Penser d'une manière globale",
+                        "description_1": "Le progrès technologique a créé un environnement mondial interconnecté sans frontières. Ce qui mène à :",
+                        "list_1": "Des normes plus exigeantes en matière de service à la clientèle, d'innovation, etc.",
+                        "list_2": "Alliances entre gouvernements, industries et organisations",
+                        "list_3": "Avoir une perspective globale avec une expérience multiculturelle dans différentes entreprises."
+                    },
+                    "appreciating_diversity": {
+                        "title": "Apprécier la diversité",
+                        "list_1": "Être prêt à comprendre, être à l'aise avec et apprécier les différences résultant de la culture, de la religion, du sexe, de la personnalité, de la formation, de l'âge\/de la génération et des styles de pensée",
+                        "list_2": "Tirer parti des différences pour acquérir de nouvelles perspectives",
+                        "list_3": "Apprendre à se différencier en motivant les gens"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Communication",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Faire preuve d'intégrité",
+                        "description_1": "Diriger soi-même, les autres et la culture :",
+                        "list_1": "Donner l'exemple en matière d'honnêteté, de comportement éthique et de valeurs organisationnelles.",
+                        "list_2": "Être digne de confiance pour diriger les gens dans la bonne direction",
+                        "list_3": "Respecter les personnes participant au processus",
+                        "list_4": "Garantir une culture de fonctionnement constructif."
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Encourager le dialogue constructif",
+                        "description_1": "Communication cohérente dans le partage du leadership par :",
+                        "list_1": "Poser des questions pour solliciter un retour d'information, un avis et de nouvelles idées.",
+                        "list_2": "Écouter avec attention",
+                        "list_3": "Accepter les commentaires constructifs",
+                        "list_4": "Se mettre à la place d'autrui (empathie)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Créer une vision commune",
+                        "description_1": "Créer une perspective à travers :",
+                        "list_1": "Être à l'écoute des autres",
+                        "list_2": "Créer une dynamique et inspirer les autres",
+                        "list_3": "Appuyer sa vision avec une stratégie",
+                        "list_4": "Définir les rôles et les priorités"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Prochaines étapes",
+        "description_1": "Le rapport GLA360 est conçu spécialement pour fournir des renseignements précieux sur les 15 compétences les plus importantes pour le leader d'aujourd'hui dans un environnement professionnel internationalisé.",
+        "description_2": "Faire une évaluation à 360° est un premier pas important pour apporter des progrès significatifs dans votre parcours de leadership. Si vous souhaitez en savoir plus et poursuivre le développement de votre carrière de leader, consultez notre centre de ressources à l'adresse {lien}.",
+        "information_free": "Le Rapport GLA360 gratuit donne un bref aperçu de l'évaluation. Si vous souhaitez approfondir vos résultats en matière de leadership, vous pouvez accéder à un Rapport GLA360 ciblé ou à un Rapport GLA360 complet qui comprend une séance de débriefing avec un coach certifié en cliquant sur ce lien : {lien}.",
+        "information_focused": "Si vous souhaitez approfondir vos résultats en matière de leadership, vous pouvez accéder à votre rapport GLA360 complet et programmer une séance de débriefing avec un coach certifié en cliquant sur ce lien : {lien}."
+    }
+}

@@ -1,0 +1,349 @@
+{
+    "header": {
+        "ReportOfLeader": "<b>{leader}<\/b>的GLA反饋報告",
+        "reportOfLeader": "<b>{leader}<\/b>的GLA反饋報告"
+    },
+    "indexes": {
+        "respondentsOverview": "受訪者概述",
+        "competencyPercentiles": "能力百分比",
+        "competencyOverview": "能力總結",
+        "highestRatedItems": "最高分項目",
+        "lowestRatedItems": "最低分項目",
+        "significantGaps": "顯著分差",
+        "writtenComments": "書面評論",
+        "pageTitle": "反饋報告內容",
+        "competencyBrief": "勝任力亮點",
+        "competencyMap": "勝任力圖譜",
+        "combinedCompetency": "勝任力亮點與圖譜",
+        "competencyDescription": "勝任力概述",
+        "abbreviated": "縮略語",
+        "topFive": "前五項"
+    },
+    "relationships": {
+        "self": "本人",
+        "managers": "管理人員",
+        "direct_reports": "直接下屬",
+        "peers": "同事",
+        "others": "其他人",
+        "all_respondents": "所有受訪者",
+        "leader": "本人",
+        "respondents": "所有受訪者"
+    },
+    "common": {
+        "total": "總分",
+        "no_information": "無信息",
+        "no_response": "無回覆",
+        "average": "平均分",
+        "country": "國家",
+        "language": "語言",
+        "noDataDisplay": "沒有數據可顯示",
+        "focusedNote": "請注意：GLA360焦點報告中包含該類別中的前5項。該項目的詳細清單可於GLA360完整報告中查看。"
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>{leader}<\/b>的<b>反饋報告<\/b>",
+        "publishedAt": "在{date}被發表"
+    },
+    "respondentsOverview": {
+        "pageTitle": "受訪者概述",
+        "descriptionTable": "下面的數字代表每個受訪者小組在到期日之前提交的已完成調查的數量。請註意，這些數字不一定反映您收到的每個項目的回覆數量，因為有些人可能沒有給您有關每個項目的反饋。這些數字僅代表已完成且已提交的評估。",
+        "descriptionData": "為了保持匿名，在提交的調查少於三個時，您的反饋報告將不會顯示來自匿名受訪者小組（例如直接下屬、同事、其他人）的回覆。如果從受訪者小組收到的調查少於三份，則他們的評分將與另一個受訪者小組的評分被結合在一起。\n\n對於在一個受訪者小組中收到的回覆少於三個的任何單個項目，該項目將代替資料顯示『收到的回覆不夠』。",
+        "reportN": "報告\nN",
+        "nominatedN": "被提名的",
+        "responseRate": "回覆\n評分"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "能力百分比雷達圖",
+            "subtitle": "如何閱讀項目矩陣",
+            "description": "此雷達圖是一個讓確定優勢和發展領域變得輕松的領導力有效性操控板。此高級能力概述是深入研究行為細節的良好起點。\n\n本部分繪制了本人回覆的能力百分比排名以及在沒有本人回覆的情況下被計算的所有受訪者的百分比排名。",
+            "pointATitle": "群組",
+            "pointA": "確保成功、持續變革、與他人互動、無邊界的包容、通訊。",
+            "pointBTitle": "能力",
+            "pointB": "放眼全球、展望機遇、建立共同願景、發展人們、賦予他人權力、欣賞多樣性、建立合作夥伴關系、領導變革、開發技術頭腦、鼓勵建設性對話、確保客戶滿意度、保持競爭優勢、實現個人對業務的精通、分享領導力、展示正直誠信的一面。"
+        },
+        "competencyOverview": {
+            "title": "能力總結",
+            "subtitle": "如何閱讀此圖表",
+            "description": "此雷達圖是一個讓確定優勢和發展領域變得輕松的領導力有效性操控板。此高級能力概述是深入研究行為細節的良好起點。\n\n本部分繪制了本人回覆的能力百分比排名以及在沒有本人回覆的情況下被計算的所有受訪者的百分比排名。",
+            "pointATitle": "能力（群組）",
+            "pointA": "在此示例中，『展示正直誠信』是群組『通信』中的能力。",
+            "pointBTitle": "受訪者小組平均分",
+            "pointB": "每個項目的平均分被用於計算此能力的平均分。",
+            "pointCTitle": "規範性小組平均分",
+            "pointC": "提供此分數是為了將參與者的平均分與作為全球規範性小組一部分參加此評估過程的其他人進行比較。",
+            "pointDTitle": "線型圖",
+            "pointD": "本人平均分。",
+            "pointETitle": "有效的N",
+            "pointE": "每個受訪者小組收到的所有項目的回覆數。在此示例中，直接下屬小組向此能力中的項目提交了15個回覆。請註意，N不一定等於被提名的受訪者人數。",
+            "pointFTitle": "分銷部",
+            "pointF": "每個圓圈中的數字顯示每個評分量表中有多少參與者進行了回答。在此示例中，『本人』對構成該能力的5個項目的回答為『滿意（4）』。",
+            "pleaseNote": "請注意：GLA360焦點報告包含領導者和所有受訪者的詳細信息。各個分組（管理人員、直接下屬、同事, 其他人）的見解可在GLA360完整報告中查看。"
+        },
+        "itemMatrix": {
+            "subtitle": "如何閱讀項目矩陣",
+            "description": "本節平均計算受訪者小組的能力部分內的所有項目評分。N表示針對每個相應能力中的所有項目所收到的回覆總數。",
+            "pointATitle": "受訪者小組平均分",
+            "pointA": "每個項目的平均分被用於計算此能力的平均分。",
+            "pointBTitle": "項目",
+            "pointB": "受訪者在提交的調查中被問的問題清單。",
+            "pointCTitle": "百分比排名",
+            "pointC": "百分比顯示個人在特定項目上的平均分與做過該評估並將該調查作為全球規範小組一部分的其他人的平均分的對比。在上面的示例中，來自同事的評分的百分比為64。這表明，收到此項目反饋的其他個人中，有36％得分高於該參與者。全球規範組中有64％的人得分等於或低於該個人在此特定項目上的評分。",
+            "pointDTitle": "線型圖",
+            "pointD": "為保護受訪者的匿名性，當有2個或2個以下的回覆時，平均分將不會被顯示。",
+            "pointETitle": "無回覆",
+            "pointE": "這表明沒有人對此問題做出回覆。"
+        },
+        "HighestItem": {
+            "title": "最高分項目",
+            "subtitle": "如何閱讀此圖表",
+            "description1": "『評分最高的項目』概述在三個級別上總結了領導力量：項目級別行為、能力和群組。這讓識別共同點和主題以總結領導力量以及受訪者群體內部和群體之間的高級別有效性領域變得很容易。",
+            "description2": "列出的項目數是每個受訪者小組評估中每個項目平均分的最高10％。如果同壹項目在其他受訪者小組中排在最高10％，則它會以綠色圓點被指出（請參閱C）。此外，如果某項目的平均分低於2.00，則該項不會被列為評分最高的項目。",
+            "pointATitle": "能力、群組和項目",
+            "pointA": "此列表列出了該項目以及其所屬的能力和群組。在此示例中，『展示正直誠信』是群組『通信』中的能力。",
+            "pointBTitle": "受訪者小組平均分",
+            "pointB": "該項目的平均分。",
+            "pointCTitle": "重複項目",
+            "pointC": "這表明該項目在其他受訪者小組中也被報告為最高項目，並以綠點突出顯示。",
+            "pointDTitle": "分銷部",
+            "pointD": "每個圓圈中的數字顯示每個評分量表中有多少參與者進行了回答。在此示例中，3位參與者的回答為『高度滿意』、2位參與者的回答為『滿意』。"
+        },
+        "LowestItem": {
+            "title": "最低分項目",
+            "subtitle": "如何閱讀此圖表",
+            "description1": "『評分最低的項目』概述在三個級別上總結了需要發展的領域：項目級別行為、能力和群組。這讓識別共同點和主題以總結各個受訪者小組在領導力中要發展的領域變得非常容易。",
+            "description2": "列出的項目數是每個受訪者小組評估中每個項目平均分的最低10％。如果同一項目在其他受訪者小組中排在最低10％，則它會以黃色圓點被指出（請參閱C）。此外，如果某項目的平均分高於4.00，則該項不會被列為評分最低的項目。",
+            "pointATitle": "能力、群組和項目",
+            "pointA": "此列表列出了該項目以及其所屬的能力和群組。",
+            "pointBTitle": "受訪者小組平均分",
+            "pointB": "該項目的平均分。",
+            "pointCTitle": "重複項目",
+            "pointC": "這表明該項目在其他受訪者小組中也被報告為最低項目，並以黃點突出顯示。",
+            "pointDTitle": "分銷部",
+            "pointD": "每個圓圈中的數字顯示每個評分量表中有多少參與者進行了回答。在此示例中，1位參與者的回答為『高度不滿意』、4位參與者的回答為『不滿意』、5位參與者的回答為『既非滿意也非不滿』。"
+        },
+        "significantGap": {
+            "title": "顯著分差",
+            "subtitle": "如何閱讀此圖表",
+            "description1": "『顯著分差』概述推動了圍繞自我意識和他人看法進行的建設性對話，這有助於參與者有效地從意識轉變為接受\/行動。",
+            "description2": "本人與每個受訪者小組之間存在巨大分差。所有平均分差超過30％的項目都已被列出。下面的示例顯示了『本人』和『同事』之間的分差。",
+            "pointATitle": "能力、群組和項目",
+            "pointA": "此列表列出了該項目以及其所屬的能力和群組。",
+            "pointBTitle": "受訪者小組平均分",
+            "pointB": "這是某個特定受訪者小組在該項目上獲得的平均分。在這種情況下，受訪者小組是同事。相應小組中評分最高項目和評分最低項目已用綠色和黃色箭頭指示。",
+            "pointCTitle": "本人平均分",
+            "pointC": "這是某個特定受訪者小組在該項目上獲得的平均分。本人評分最高項目和評分最低項目也已用綠色和黃色箭頭指示。",
+            "pointDTitle": "分差",
+            "pointD": "這是被訪者小組和本人平均分之間的分差，從最大的正數分差到最大負數分差被分類。"
+        }
+    },
+    "percentileRadar": {
+        "title": "能力百分比雷達圖"
+    },
+    "competencyOverview": {
+        "percentileRank": "百分比排名"
+    },
+    "itemMatrix": {
+        "title": "項目矩陣"
+    },
+    "HighLowItems": {
+        "titleHigh": "最高分項目",
+        "titleLow": "最低分項目"
+    },
+    "highLowItems": {
+        "titleHigh": "最高分項目",
+        "titleLow": "最低分項目"
+    },
+    "significantGaps": {
+        "title": "顯著分差",
+        "self_vs_all_rater": "所有受訪者與本人",
+        "self_vs_direct_report": "直接下屬與本人",
+        "self_vs_manager": "管理人員與本人",
+        "self_vs_other": "其他人與本人",
+        "self_vs_peer": "同事與本人",
+        "tableHeader": {
+            "self_vs_all_rater": "所有受訪者的平均分",
+            "self_vs_direct_report": "直接下屬平均分",
+            "self_vs_manager": "管理人員平均分",
+            "self_vs_other": "其他人的平均分",
+            "self_vs_peer": "同事平均分",
+            "self": "本人\n平均分",
+            "gap": "分差"
+        }
+    },
+    "verbatim": {
+        "title": "書面評論",
+        "intro": "來自您的受訪者的評論按每個受訪者小組進行分類。我們可能會編輯或清理評論，以保留受訪者的匿名性。明顯的語法和印刷錯誤可能已在沒有更改消息內容的情況下得到糾正。評論不會出現在焦點報告中。",
+        "pleaseNote": "請注意：由於書面評語的敏感性，GLA360焦點報告僅顯示對問題73的回答。對問題74和75的回答請見GLA460完整報告。"
+    },
+    "demographics": {
+        "func_area": "職能領域",
+        "org_lvl": "組織級別",
+        "time_in_curr_role": "當前職務任職時間",
+        "industry": "行業",
+        "age_group": "年齡段",
+        "gender": "性別"
+    },
+    "competencyBrief": {
+        "title": "勝任力亮點",
+        "blindSpots": "盲點",
+        "strength": "優勢",
+        "unknown": "未知",
+        "hiddenStrength": "隱藏優勢",
+        "description": "以上是每個象限內最受認可的三個能力（按百分位分數排名）的概述、百分位分數是根據不同國籍、年齡、組織等級、行業和教育背景的國際領導者常模來計算。",
+        "blindSpotsDescription": "同事們認可這些能力是領導者的優勢，但領導者並不這樣認為。",
+        "strengthDescription": "領導者和同事們都認可這些能力是領導者的優勢。",
+        "unknownDescription": "領導者和同事均不認可這些能力。",
+        "hiddenStrengthDescription": "同事們沒有意識到或者不認可這些能力是領導者的優勢。",
+        "combinedTitle": "勝任力亮點與圖譜"
+    },
+    "competencyMap": {
+        "title": "勝任力圖譜",
+        "subtitle": "勝任力百分比排名",
+        "selfRank": "本人（百分位排名）",
+        "respondentRank": "所有受訪者（百分位排名）"
+    },
+    "competencyDescription": {
+        "title": "勝任力概述",
+        "category": {
+            "assureSuccess": {
+                "title": "成功的保證",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "培養技術型人才",
+                        "description_1": "了解應用技術獎如何提供人們的生產和商業效率，從而在未來的世界中取得成功。"
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "確保客戶滿意度",
+                        "description_1": "確保各職能部門\/團隊之間的協助，以提供高質量的服務和產品，並激勵大家持續實現更高的客戶滿意度。"
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "保持競爭優勢",
+                        "description_1": "高效地引導持續改進",
+                        "list_1": "更快地產出更好的結果",
+                        "list_2": "調動組織內智慧資本",
+                        "list_3": "消除浪費和不必要的成本",
+                        "list_4": "交付產品和服務",
+                        "list_5": "實現長期股東價值"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "持續變革",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "實現自我超越",
+                        "description_1": "領導者通過以下方式“由內以外”提高領導效率",
+                        "list_1": "圍繞行為、動機、個人喜好等方面提高自我意識。",
+                        "list_2": "控制他\/她的情緒和行為",
+                        "list_3": "彌補能力差距"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "展望機遇",
+                        "list_1": "研究未來趨勢",
+                        "list_2": "期待未來的機遇",
+                        "list_3": "展望未來",
+                        "list_4": "拓展思路以滿足新環境的需求"
+                    },
+                    "leading_change": {
+                        "title": "引領變革",
+                        "list_1": "變化亦是一種機遇",
+                        "list_2": "領導與管理：挑戰現狀",
+                        "list_3": "靈活性",
+                        "list_4": "鼓勵創造性",
+                        "list_5": "將創意轉化為成果"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "吸引人才",
+                "table": {
+                    "developing_people": {
+                        "title": "培養人才",
+                        "description_1": "通過以下方式吸引高效的執行者：",
+                        "list_1": "培訓與指導（反饋\/前饋）",
+                        "list_2": "表現出尊重和尊嚴",
+                        "list_3": "獎勵和認可成績",
+                        "list_4": "構築一個欣欣向榮的環境"
+                    },
+                    "building_partnerships": {
+                        "title": "建立夥伴關係",
+                        "list_1": "建立信任",
+                        "list_2": "主動關注積極的議程",
+                        "list_3": "在組織範圍內建立夥伴關係和聯盟",
+                        "list_4": "在組織外建立網絡"
+                    },
+                    "sharing_leadership": {
+                        "title": "共享領導力",
+                        "description_1": "通過矩陣結構、夥伴關係和業務流程外包實現組織扁平化，造就組織內的專業知識、權力、權威和決策深入而廣泛地縱橫分散。",
+                        "description_2": "通過以下方式建立一個領導團隊：",
+                        "list_1": "打造一個有著高級管理經驗、專業知識和優勢互補的基礎",
+                        "list_2": "了解他\/她的局限性並尊重他們的才能\/專業",
+                        "list_3": "協作的重點是在共同的願景上建立信任",
+                        "list_4": "從“正確的方式”轉向“當前最佳的方式”"
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "無邊界的包容",
+                "table": {
+                    "empowering_people": {
+                        "title": "將權力賦予他人",
+                        "list_1": "通過崗位技能培訓建立信心",
+                        "list_2": "承擔可控的風險以提供應用和成長的機會",
+                        "list_3": "通過一步步放手給人自由度並逐步將權力賦予他人",
+                        "list_4": "通過鼓舞人心的成就在構築信任的過程中積累信任"
+                    },
+                    "thinking_globally": {
+                        "title": "全球化思維",
+                        "description_1": "科技的進步創造了一個無邊界且相互聯繫的全球環境。造就了：",
+                        "list_1": "在客戶服務、創新等方便設定更高標準",
+                        "list_2": "在政府、行業和組織之間建立合作關係",
+                        "list_3": "具備全球性視野，在不同商業環境中擁有多元文化經驗"
+                    },
+                    "appreciating_diversity": {
+                        "title": "欣賞多樣性",
+                        "list_1": "有興趣去了解，接納和欣賞文化、宗教、性別、個性、教育背景、年齡\/年代和思維方式的差異",
+                        "list_2": "在分歧中獲取新視覺",
+                        "list_3": "學會對他人差異化激勵"
+                    }
+                }
+            },
+            "communication": {
+                "title": "溝通",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "彰顯誠信",
+                        "description_1": "通過以下方式引領自我、他人與文化",
+                        "list_1": "樹立誠信、道德行為、組織價值觀的榜樣",
+                        "list_2": "以值得信賴的方式引導人們走向正確的方向",
+                        "list_3": "在發展過程中尊重他人",
+                        "list_4": "確保組織文化的建設性"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "鼓勵建設性的對話",
+                        "description_1": "通過以下方式在共享領導力中保持一致的溝通",
+                        "list_1": "提出問題以征求反饋、前饋和新想法",
+                        "list_2": "以開放的心態傾聽",
+                        "list_3": "接受有建設性的反饋",
+                        "list_4": "設身處地為他人著想（共情）"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "構建共同的願景",
+                        "description_1": "通過以下方式構築願景",
+                        "list_1": "聽取他人的意見",
+                        "list_2": "創造動力和激勵他人",
+                        "list_3": "用策略支持願景",
+                        "list_4": "定義角色和優先項"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "下一步",
+        "description_1": "GLA360報告可為15種最重要的勝任力提供有價值的見解，專為如今身處國際化商業環境中的領導者而設。",
+        "description_2": "進行360評估是一個令人振奮的開端，它能使您的領導力成就之旅發生意義非凡的轉變。如果您希望瞭解更多內容讓您的發展更進一步，請通過以下鏈接查看我們的資源中心。",
+        "information_free": "免費都GLA360報告為您提供簡短的評估概述。如果您希望更深入瞭解您的領導能力評估結果，您可以通過以下鏈接{link}獲取GLA360焦點報告以及包含認證導師分析會談的GLA360完整報告。",
+        "information_focused": "如果想更深入了解您的領導能力評估結果，您可以通過以下鏈接： {link}訪問您的GLD360完整報告並預約認證導師進行分析會談"
+    }
+}

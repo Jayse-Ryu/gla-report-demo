@@ -1,0 +1,392 @@
+{
+    "header": {
+        "ReportOfLeader": "„GLA360“ grįžtamojo ryšio ataskaita, skirta <b>{leader}<\/b>",
+        "reportOfLeader": "„GLA360“ grįžtamojo ryšio ataskaita, skirta <b>{leader}<\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Respondentų apžvalga",
+        "competencyPercentiles": "Kompetencijos Radaro principo grafikas",
+        "competencyOverview": "Kompetencijų santrauka",
+        "highestRatedItems": "Geriausiai įvertinti punktai",
+        "lowestRatedItems": "Blogiausiai įvertinti punktai",
+        "significantGaps": "Dideli skirtumai",
+        "writtenComments": "Rašytiniai komentarai",
+        "pageTitle": "Turinys",
+        "competencyBrief": "Svarbiausi kompetencijos aspektai",
+        "competencyMap": "Kompetencijų žemėlapis",
+        "combinedCompetency": "Svarbiausi kompetencijos aspektai ir žemėlapis",
+        "competencyDescription": "Kompetencijų peržiūra",
+        "abbreviated": "Sutrumpintas",
+        "topFive": "Geriausių 5-tukas",
+        "reportOverview": "Ataskaitos apžvalga",
+        "listOfCompetencies": "Kompetencijų sąrašas"
+    },
+    "relationships": {
+        "self": "Jūs",
+        "managers": "Vadovai",
+        "direct_reports": "Tiesioginiai pavaldiniai",
+        "peers": "Kolegos",
+        "others": "Kiti",
+        "all_respondents": "Visi respondentai",
+        "leader": "Jūs",
+        "respondents": "Visi respondentai"
+    },
+    "common": {
+        "total": "Iš viso",
+        "no_information": "Nėra informacijos",
+        "no_response": "Nėra atsakymo",
+        "average": "Vidurkis",
+        "country": "Šalis",
+        "language": "Kalba",
+        "noDataDisplay": "Nėra duomenų, kuriuos būtų galima rodyti",
+        "focusedNote": "Svarbu: „The Focused GLA360 Report“ ataskaitą sudaro 5 populiariausi šios kategorijos elementai. Išsamų elementų sąrašą rasite „Full GLA360 Report“.",
+        "privacyPolicy": "Privatumo politika",
+        "password": "Slaptažodis",
+        "confirmPassword": "Patvirtinti slaptažodį",
+        "save": "Išsaugoti",
+        "copyLink": "Kopijuoti nuorodą",
+        "rules": {
+            "reqPw": "Slaptažodis yra būtinas.",
+            "reqConfirmPw": "Būtinas slaptažodžio patvirtinimas.",
+            "matchConfirmPw": "Slaptažodžio patvirtinimas nesutampa."
+        },
+        "competency": "Kompetencija",
+        "dragAndDropDesc": "Vilkite ir padėkite kompetencijas, kad sudarytumėte suvestinį sąrašą to, ką norėtumėte peržiūrėti"
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>„GLA360“ ataskaita<\/b>, skirta <b>{leader}<\/b>",
+        "publishedAt": "Paskelbta {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Respondentų apžvalga",
+        "descriptionTable": "Žemiau pateikti skaičiai rodo užpildytų apklausų, kurias kiekviena respondentų grupė pateikė laiku, skaičių. Atkreipkite dėmesį, kad šie skaičiai nebūtinai atspindi atsakymų, kuriuos gavote dėl kiekvieno punkto, skaičių, nes kai kurie asmenys galbūt nepateikė atsiliepimų dėl kiekvieno punkto. Šie skaičiai atspindi tik užbaigtus ir pateiktus vertinimus.",
+        "descriptionData": "Norint užtikrinti anonimiškumą, jūsų grįžtamojo ryšio ataskaitoje nebus rodomi atsakymai iš anoniminių respondentų grupių (pvz., tiesioginių pavaldinių, kolegų ir kitų), kurios pateikė mažiau nei tris apklausas. Jei iš respondentų grupės buvo gauta mažiau nei trys apklausos, jų vertinimai bus sujungiami su kitos respondentų grupės vertinimais.\n\nPrie bet kurio atskiro elemento, turinčio mažiau nei tris atsakymus respondentų grupėje, vietoje duomenų bus matoma „Nepakanka atsakymų“.",
+        "reportN": "Ataskaita\nN",
+        "nominatedN": "Nominuotas\nN",
+        "responseRate": "Atsakymų\nprocentas"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Kompetencijos Radaro principo grafikas",
+            "subtitle": "Kaip skaityti Radaro principo diagramą",
+            "description": "Radaro principo diagrama yra lyderystės efektyvumo informacijos suvestinė, leidžianti lengvai nustatyti stipriąsias puses ir tobulintinas sritis. Ši aukšto lygio kompetencijų apžvalga yra geras atspirties taškas, leidžiantis gilintis į elgesio detales.\n\nŠiame skyriuje pavaizduotas Jūsų kompetencijų vertinimo procentinis rangas, taip pat Visų Respondentų procentinis rangas, skaičiuojamas neįtraukiant Jūsų vertinimo.",
+            "pointATitle": "Grupė",
+            "pointA": "Sėkmės užtikrinimas, nuolatiniai pokyčiai, žmonių įtraukimas, įtraukimas be ribų, komunikacija.",
+            "pointBTitle": "Kompetencija",
+            "pointB": "Globalus mąstymas, galimybių pamatymas, bendros vizijos kūrimas, žmonių ugdymas, žmonių įgalinimas, įvairovės vertinimas, partnerysčių kūrimas, pokyčių siekimas, technologinių žinių ugdymas, konstruktyvaus dialogo skatinimas, klientų pasitenkinimo užtikrinimas, konkurencinio pranašumo išsaugojimas, asmeninio profesionalumo siekimas, lyderystės\/vadovavimo pasidalijimas, sąžiningumo demonstravimas."
+        },
+        "competencyOverview": {
+            "title": "Kompetencijų santrauka",
+            "subtitle": "Kaip skaityti santrauką",
+            "description": "Kompetencijų suvestinė suskirsto vertinimo rezultatus kiekvienai respondentų grupei ir leidžia lengvai palyginti \/ analizuoti trūkumus. „N“reiškia bendrą gautų atsakymų skaičių už visus dalykus iš atitinkamų kompetencijų.",
+            "pointATitle": "Kompetencija (grupė)",
+            "pointA": "Šiame pavyzdyje „Sąžiningumo demonstravimas“ yra grupės „Bendravimas“ kompetencija.",
+            "pointBTitle": "Respondentų grupės vidurkis",
+            "pointB": "Kiekvieno punkto vidurkis naudojamas apskaičiuojant šios kompetencijos vidurkį.",
+            "pointCTitle": "Normos grupės vidurkis",
+            "pointC": "Jis pateikiamas norint palyginti dalyvio vidutinius įvertinimus su kitais, kurie dalyvavo šiame vertinimo procese kaip normos grupės dalis.",
+            "pointDTitle": "Linijinė diagrama",
+            "pointD": "Savęs vertinimo vidurkis.",
+            "pointETitle": "Galiojantis N",
+            "pointE": "Atsakymų skaičius į visus punktus pagal respondentų grupę. Šiame pavyzdyje iš tiesioginių pavaldinių grupės buvo pateikti 15 atsakymai į klausimus apie šią kompetenciją. Atkreipkite dėmesį, kad N nebūtinai yra lygus nominuotų respondentų skaičiui.",
+            "pointFTitle": "Pasiskirstymas",
+            "pointF": "Skaičiai kiekviename apskritime rodo, kiek dalyvių pateikė atsakymus kiekvienoje įvertinimo skalėje. Šiame pavyzdyje save vertinantis asmuo pasirinko „Patenkintas (4)“ 5 punktuose, kurie sudaro šią kompetenciją.",
+            "pleaseNote": "Atkreipkite dėmesį: „Focused GLA360“ ataskaitoje pateikiama išsami informacija apie Lyderį ir Visus Respondentus. Įžvalgos kiekvienai individualiai grupei (Valdytojai, Tiesioginės Ataskaitos, Kolegos ir Kiti) pateikiamos pilnoje „GLA360“ ataskaitoje."
+        },
+        "itemMatrix": {
+            "subtitle": "Kaip suprasti\/skaityti spindulinę diagramą",
+            "description": "Šiame skyriuje skaičiuojamas respondentų grupės visų punktų vertinimo vidurkis pagal kompetenciją. N reiškia bendrą gautų atsakymų skaičių pagal kiekvieną iš atitinkamų kompetencijų.",
+            "pointATitle": "Respondentų grupės vidurkis",
+            "pointA": "Šio elemento respondentų grupės vidurkis.",
+            "pointBTitle": "Punktas",
+            "pointB": "Respondentų pateiktoje apklausoje užduotų klausimų sąrašas.",
+            "pointCTitle": "Procentinis rangas",
+            "pointC": "Procentiliai rodo, kiek vieno asmens tam tikro punkto vertinimo vidurkis panašus į kitų, kurie dalyvavo šiame vertinimo procese ir naudojo šią apklausą kaip normos grupės dalį. Ankstesniame pavyzdyje kolegų vertinimo procentilis yra 64. Tai reiškia, kad 36 % kitų asmenų, gavusių grįžtamąjį ryšį dėl šio punkto turi geresnį rezultatą nei tas dalyvis. 64 % normos grupės gavo įvertinimą, kuris yra lygus arba žemesnis už asmens įvertinimą pagal šį konkretų punktą.",
+            "pointDTitle": "Nepakanka atsakymų",
+            "pointD": "Vidurkiai nėra rodomi, kai yra 2 ar mažiau atsakymų, siekiant apsaugoti respondentų anonimiškumą.",
+            "pointETitle": "Nėra atsakymų",
+            "pointE": "Tai reiškia, kad į šį klausimą nebuvo atsakyta."
+        },
+        "HighestItem": {
+            "title": "Geriausiai įvertinti punktai",
+            "subtitle": "Kaip suprasti\/skaityti diagramą",
+            "description1": "Geriausiai įvertintų punktų apžvalgoje stipriosios lydersytės pusės apibendrinamos trimis lygmenimis: elgesys, kompetencija ir grupė. Todėl labai lengva atpažinti bendrumus ir temas, kad būtų galima apibendrinti lyderių\/vadovų stipriąsias puses ir aukšto lygio efektyvumo sritis respondentų grupėse ir tarp grupių.",
+            "description2": "Išvardytų punktų skaičius yra 10% geriausių visų įvertinimų kiekvienos respondentų grupės vidutinių balų. Jei tas pats elementas yra įvertintas tarp geriausių 10% kitų respondentų grupių, jis nurodomas žaliu tašku (žr. B). Be to, jei punkto vidurkis yra žemesnis nei 2,00, prekė nebus įtraukta į aukščiausiai įvertintą daiktą.",
+            "pointATitle": "Kompetencija, grupė, punktas",
+            "pointA": "Čia nurodytas punktas ir kompetencija, ir grupė, kuriai ji priklauso. Šiame pavyzdyje „Sąžiningumo demonstravimas“ yra kompetencija, kuri priklauso grupei „Komunikacija“.",
+            "pointBTitle": "Respondentų grupės vidurkis",
+            "pointB": "Punkto vertinimo vidurkis.",
+            "pointCTitle": "Pasikartojantis punktas",
+            "pointC": "Tai reiškia, kad šis punktas taip pat nurodytas kaip geriausiai vertinamas punktas kitose respondentų grupėse ir pažymėtas žaliu tašku.",
+            "pointDTitle": "Pasiskirstymas",
+            "pointD": "Skaičius kiekviename rate rodo, kiek dalyvių pateikė atsakymus kiekvienoje įvertinimo skalėje. Šiame pavyzdyje 3 dalyviai atsakė „Labai patenkinti“, o 2 dalyviai atsakė „Patenkinti“."
+        },
+        "LowestItem": {
+            "title": "Blogiausiai įvertinti punktai",
+            "subtitle": "Kaip suprasti\/skaityti diagramą",
+            "description1": "Blogiausiai įvertintų punktų apžvalgoje apibendrinamos sritys, kurias reikia vystyti trimis lygmenimis: elgesys, kompetencija ir grupė. Todėl labai lengva atpažinti panašumus ir tendencijas, kad būtų galima apibendrinti sritis, kurias lyderiai\/vadovai turėtų tobulinti respondentų grupėse.",
+            "description2": "Išvardytų punktų skaičius yra žemiausi 10 % pagal respondentų grupės kiekvieno punkto įvertinimo vidurkį. Jei tas pats punktas yra nurodytas apatiniuose 10 % kitų respondentų grupių, jis pažymėtas geltonu tašku (žr. B). Taip pat, jei punkto vidurkis yra didesnis nei 4.00, punktas nebus pažymėtas kaip prasčiausiai įvertintas punktas.",
+            "pointATitle": "Kompetencija, grupė, punktas",
+            "pointA": "Čia nurodytas punktas ir kompetencija, ir grupė, kuriai ji priklauso.",
+            "pointBTitle": "Respondentų grupės vidurkis",
+            "pointB": "Punkto vertinimo vidurkis.",
+            "pointCTitle": "Pasikartojantis punktas",
+            "pointC": "Tai reiškia, kad šis punktas taip pat nurodytas kaip blogiausiai vertinamas punktas kitose respondentų grupėse ir pažymėtas geltonu tašku.",
+            "pointDTitle": "Pasiskirstymas",
+            "pointD": "Skaičius kiekviename apskritime rodo, kiek dalyvių pateikė vertinimą kiekvienoje vertinimo skalėje. Šiame pavyzdyje 1 dalyvis atsakė „labai nepatenkintas“, 4 dalyviai atsakė „nepatenkintas“ ir 5 dalyviai atsakė „neturiu nuomonės“."
+        },
+        "significantGap": {
+            "title": "Dideli skirtumai",
+            "subtitle": "Kaip suprasti\/skaityti diagramą",
+            "description1": "Didelių skirtumų apžvalga skatina konstruktyvų dialogą apie tai, kaip jūs suvokiate save ir jus suvokia kiti. Tai padeda dalyviui efektyviai pereiti nuo suvokimo iki priėmimo \/ veiksmo.",
+            "description2": "Pateikiamos esminės spragos yra tarp Jūsų ir kiekvienos respondentų grupės. Pateikiami visi elementai, kurių vidutinis balų skirtumas yra didesnis nei 30%.",
+            "pointATitle": "Kompetencija, Klasteris, Punktas",
+            "pointA": "Čia nurodytas punktas ir kompetencija, ir grupė, kuriai ji priklauso.",
+            "pointBTitle": "Respondentų grupės vidurkis",
+            "pointB": "Tai yra konkrečios respondentų grupės vidurkis. Šiuo atveju, respondentai yra kolegos. Aukščiausiai ir žemiausiai įvertinti punktai atitinkamoje grupėje pažymėti žaliomis ir geltonomis rodyklėmis.",
+            "pointCTitle": "Savęs vertinimo vidurkis",
+            "pointC": "Tai yra konkrečios respondentų grupės vidurkis. Aukščiausiai ir žemiausiai įvertinti punktai vertinant save taip pat pažymėti žaliomis ir geltonomis rodyklėmis.",
+            "pointDTitle": "Skirtumas",
+            "pointD": "Tai skirtumas tarp respondentų grupės ir Jūsų vertinimo vidurkio, suskirstytas nuo didžiausio teigiamo skirtumo iki didžiausio neigiamo skirtumo."
+        }
+    },
+    "percentileRadar": {
+        "title": "Kompetencijos Radaro principo diagrama"
+    },
+    "competencyOverview": {
+        "percentileRank": "Procentinis reitingas"
+    },
+    "itemMatrix": {
+        "title": "Punktų matrica"
+    },
+    "HighLowItems": {
+        "titleHigh": "Geriausiai įvertinti punktai",
+        "titleLow": "Blogiausiai įvertinti punktai"
+    },
+    "highLowItems": {
+        "titleHigh": "Geriausiai įvertinti punktai",
+        "titleLow": "Blogiausiai įvertinti punktai"
+    },
+    "significantGaps": {
+        "title": "Reikšmingi skirtumai",
+        "self_vs_all_rater": "Visi respondentai palyginti su jumis",
+        "self_vs_direct_report": "Tiesioginės ataskaitos palyginti su Jumis",
+        "self_vs_manager": "Vadovai palyginti su jumis",
+        "self_vs_other": "Kiti palyginti su jumis",
+        "self_vs_peer": "Kolegos palyginti su jumis",
+        "tableHeader": {
+            "self_vs_all_rater": "Visų respondentų vidurkis",
+            "self_vs_direct_report": "Tiesioginių Ataskaitų vidurkis",
+            "self_vs_manager": "Vadovų vidurkis",
+            "self_vs_other": "Kitų vidurkis",
+            "self_vs_peer": "Kolegų vidurkis",
+            "self": "Savęs vertinimo vidurkis",
+            "gap": "Skirtumas"
+        }
+    },
+    "verbatim": {
+        "title": "Rašytiniai komentarai",
+        "intro": "Jūsų respondentų komentarai yra suskirstyti į kategorijas pagal kiekvieną respondentų grupę. Mes galime redaguoti arba panaikinti komentarus, kad užtikrintume respondentų anonimiškumą. Akivaizdžios gramatikos ir spausdinimo klaidos galėjo būti ištaisytos nekeičiant turinio. Komentarai nebus rodomi bendrose ataskaitose.",
+        "pleaseNote": "Atkreipkite dėmesį: atsižvelgiant į tai, kad rašytinės pastabos yra konfidencialaus pobūdžio, „Focused GLA360“ ataskaitoje pateikiami tik atsakymai į 73 klausimą. Atsakymai į 74 ir 75 klausimus pateikiami pilnoje „GLA360“ ataskaitoje."
+    },
+    "demographics": {
+        "func_area": "Funkcinė sritis",
+        "org_lvl": "Organizacijos lygmuo",
+        "time_in_curr_role": "Laikas praleistas dabartinėse pareigose",
+        "industry": "Pramonė",
+        "age_group": "Amžiaus grupė",
+        "gender": "Lytis"
+    },
+    "competencyBrief": {
+        "title": "Svarbiausi kompetencijos aspektai",
+        "blindSpots": "Aklosios zonos",
+        "strength": "Stiprybės",
+        "unknown": "Nežinoma",
+        "hiddenStrength": "Paslėptos stiprybės",
+        "description": "Aukščiau pateikiama trijų atpažįstamiausių kompetencijų apžvalga (suskirstyta pagal procentinius balus) kiekviename kvadrate. Procentai apskaičiuojami remiantis grupe tarptautinių lyderių iš įvairių šalių, amžiaus, organizacinių lygių, pramonės šakų ir išsilavinimo.",
+        "blindSpotsDescription": "Tai kompetencijos, kurias bendradarbiai pripažįsta kaip stipriąsias puses, o vadovas - ne.",
+        "strengthDescription": "Tai kompetencijos, kurias ir vadovas, ir bendradarbiai pripažįsta kaip vadovo stiprybes.",
+        "unknownDescription": "Tai kompetencijos, kurių nepripažįsta lyderis ir bendradarbiai.",
+        "hiddenStrengthDescription": "Tai kompetencijos, kurių bendradarbiai nežino, arba nepripažįsta lyderio stiprybėmis.",
+        "combinedTitle": "Svarbiausi kompetencijos aspektai ir žemėlapis"
+    },
+    "competencyMap": {
+        "title": "Kompetencijų žemėlapis",
+        "subtitle": "Procentinis reitingas pagal kompetenciją",
+        "selfRank": "Jūs (Procentinis reitingas)",
+        "respondentRank": "Visi Respondentai (Procentinis reitingas)"
+    },
+    "competencyDescription": {
+        "title": "Kompetencijų peržiūra",
+        "category": {
+            "assureSuccess": {
+                "title": "Sėkmės užtikrinimas",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Technologinių žinių plėtimas",
+                        "description_1": "Supratimas, kaip technologijų taikymas padidins žmonių produktyvumą ir verslo efektyvumą, kad būtų sėkmingi ateityje."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Klientų pasitenkinimo užtikrinimas",
+                        "description_1": "Užtikrinant komandų bendradarbiavimą teikiant kokybiškas paslaugas\/produktus ir įkvėpiant žmones nuolat siekti aukštesnio klientų pasitenkinimo lygio."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Konkurencinio pranašumo užtikrinimas",
+                        "description_1": "Efektyviai vadovaukite nuolatiniam tobulėjimui:",
+                        "list_1": "Greitesnis geresnių rezultatų pasiekimas",
+                        "list_2": "Intelektinio kapitalo mobilizavimas organizacijoje",
+                        "list_3": "Švaistymo ir nereikalingų išlaidų pašalinimas",
+                        "list_4": "Produktų ir paslaugų teikimas",
+                        "list_5": "Ilgalaikės vertės akcininkams siekimas"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Nuolatiniai pokyčiai",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Asmeninio meistriškumo pasiekimas",
+                        "description_1": "Lyderiai tobulina lyderystės efektyvumą „iš vidaus“ per:",
+                        "list_1": "Padidėjęs suvokimas apie savo elgesį, motyvatorius, asmeninius pageidavimus ir kt.",
+                        "list_2": "Savo emocijų ir elgesio valdymas",
+                        "list_3": "Kompetencijų spragų užpildymas"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Galimybių matymas",
+                        "list_1": "Ateities tendencijų tyrimas",
+                        "list_2": "Ateities galimybių numatymas",
+                        "list_3": "Požiūris  į ateitį",
+                        "list_4": "Kurkite naujos aplinkos poreikius atitinkančias idėjas"
+                    },
+                    "leading_change": {
+                        "title": "Pokyčių skatinimas",
+                        "list_1": "Pokytis - tai galimybė",
+                        "list_2": "Lyderystė prieš valdymą: iššūkis esamai situacijai",
+                        "list_3": "Lankstumas",
+                        "list_4": "Kūrybiškumo skatinimas",
+                        "list_5": "Idėjų realizavimas"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Žmonių įtraukimas",
+                "table": {
+                    "developing_people": {
+                        "title": "Žmonių ugdymas",
+                        "description_1": "Įtraukite svarius žaidėjus per:",
+                        "list_1": "Mokymas ir koučingas (atsiliepimai\/patarimai)",
+                        "list_2": "Pagarbos ir orumo rodymas",
+                        "list_3": "Pasiekimų pripažinimas ir apdovanojimas už juos",
+                        "list_4": "Klestinčios aplinkos kūrimas"
+                    },
+                    "building_partnerships": {
+                        "title": "Partnerysčių kūrimas",
+                        "list_1": "Pasitikėjimo stiprinimas",
+                        "list_2": "Aktyviai orientuojasi į teigiamą darbotvarkę",
+                        "list_3": "Partnerysčių ir sąjungų kūrimas visoje organizacijoje",
+                        "list_4": "Tarpasmeninių tinklų kūrimas už organizacijos ribų"
+                    },
+                    "sharing_leadership": {
+                        "title": "Vadovavimo\/lyderystės dalijimasis",
+                        "description_1": "Organizacijų tolyginimas taikant matricos struktūras, partneriavimo aljansus ir verslo proceso perdavimus - tai išplečia ir išskleidžia kompetenciją, galią, autoritetą ir sprendimus organizacijoje horizontaliai ir vertikaliai.",
+                        "description_2": "Lyderių komandos formavimas per:",
+                        "list_1": "Platesnis vyresniosios vadovybės patirties, ekspertų žinių ir papildomų pranašumų pagrindo kūrimas",
+                        "list_2": "Žinoti savo trūkumus ir leisti juos užpildyti tų sričių ekspertams",
+                        "list_3": "Bendradarbiavimas, orientuotas į pasitikėjimo stiprinimą, siekiant įgyvendinti bendro tikslo viziją.",
+                        "list_4": "Perėjimas nuo „vieno teisingo kelio“ prie „geriausio kelio šiuo metu“"
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Įtraukimas be apribojimų",
+                "table": {
+                    "empowering_people": {
+                        "title": "Žmonių įgalinimas",
+                        "list_1": "Ugdykite pasitikėjimą, mokydami funkcinių įgūdžių",
+                        "list_2": "Imkitės apskaičiuotos rizikos suteikdami taikymo ir augimo galimybes",
+                        "list_3": "Duokite laisvės iš lėto paleisdami procesą, kad žmonėms būtų suteikta daugiau galimybių",
+                        "list_4": "Sukurkite pasitikėjimą skatindami pasiekimus naudodami patikimą procesą"
+                    },
+                    "thinking_globally": {
+                        "title": "Globalus mąstymas",
+                        "description_1": "Technologijų pažanga sukūrė neapribotą susietą pasaulinę aplinką. Tai privedė prie:",
+                        "list_1": "Aukštesni klientų aptarnavimo, inovacijų ir kt. standartai",
+                        "list_2": "Aljansai tarp vyriausybių, pramonių ir organizacijų.",
+                        "list_3": "Globalios perspektyvos turėjimas su daugiakultūre patirtimi įvairiose įmonėse"
+                    },
+                    "appreciating_diversity": {
+                        "title": "Įvairovės vertinimas",
+                        "list_1": "Būkite suinteresuoti suprasti, jaustis patogiai ir vertinti skirtumus, atsirandančius dėl kultūros, religijos, lyties, asmenybės, išsilavinimo, amžiaus \/ kartos ir mąstymo stiliaus.",
+                        "list_2": "Pasinaudokite skirtumais, kad įgytumėte naujų pažiūrų",
+                        "list_3": "Išmokite diferencijuotai motyvuoti žmones"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Bendravimas",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Sąžiningumo demonstravimas",
+                        "description_1": "Vesti save, kitus ir kultūrą per:",
+                        "list_1": "Būti sąžiningumo, etiško elgesio ir organizacinių vertybių pavyzdžiu",
+                        "list_2": "Būti patikėtam vesti žmones reikiama kryptimi",
+                        "list_3": "Pagarba žmonėms šiame procese",
+                        "list_4": "Konstruktyvios organizacinės kultūros užtikrinimas"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Konstruktyvaus dialogo skatinimas",
+                        "description_1": "Nuoseklus pasidalijamojo vadovavimo bendravimas:",
+                        "list_1": "Klausimų uždavimas, norint išgirsti atsiliepimus, pasiūlymus ir naujas idėjas",
+                        "list_2": "Nešališkas klausymasis",
+                        "list_3": "Konstruktyvaus atsiliepimo priėmimas",
+                        "list_4": "Savęs įdėjimas į kažkieno kito kailį (empatija)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Bendros vizijos sukūrimas",
+                        "description_1": "Vizijos kūrimas per:",
+                        "list_1": "Nuomonės gavimas iš kitų",
+                        "list_2": "Kuriant impulsą ir įkvėpiant kitus",
+                        "list_3": "Vizijos parėmimas strategija",
+                        "list_4": "Vaidmenų ir prioritetų apibrėžimas"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Kiti žingsniai",
+        "description_1": "„GLA360“ ataskaita yra specialiai ir sąmoningai sukurta siekiant suteikti vertingų įžvalgų apie 15 svarbiausių šiuolaikinio lyderio kompetencijų internacionalizuojamoje verslo aplinkoje.",
+        "description_2": "„360“ įsivertinimas yra įdomus pirmasis žingsnis siekiant prasmingų pokyčių Jūsų lyderystės kelionėje. Jei norite sužinoti daugiau ir toliau vystyti savo lyderystės gebėjimus, peržiūrėkite mūsų išteklių centrą {link}.",
+        "information_free": "Nemokama „GLA360“ ataskaita pateikia trumpą vertinimo apžvalgą. Jei norite gauti gilesnes Jūsų vadovavimo rezultatų įžvalgas, galite pasinaudoti „Focused GLA360 Report“ arba „Full GLA360 Report“ ataskaitomis, į kurias įeina trumpas užsiėmimas su sertifikuotu koučeriu šioje nuorodoje: {link} .",
+        "information_focused": "Jei norite giliau išnagrinėti savo vadovavimo gebėjimo rezultatus, galite susipažinti su visa „GLA360“ ataskaita ir suplanuoti aptarimo sesiją su sertifikuotu koučeriu naudodamiesi šia nuoroda: {link}."
+    },
+    "interactive": {
+        "theme": "Tema",
+        "light_mode": "Šviesusis rėžimas",
+        "dark_mode": "Tamsusis režimas",
+        "download_pdf": "Atsisiųsti PDF",
+        "share": "Dalintis",
+        "howToRead": "Kaip skaityti",
+        "mapPlaceholder": "Kad peržiūrėtumėte Svarbiausius punktus ir Kompetencijų žemėlapį, susisiekite su {email}, kad atkurtumėte savo ataskaitą.",
+        "summaryPlaceholder": "Paspauskite kompetenciją, kad peržiūrėtumėte Kompetencijos Suvestinę",
+        "competenciesToView": "Kompetencijų peržiūra",
+        "quickNavigation": "Navigacija",
+        "selectRespondentGroup": "Pasirinkite savo respondentų grupę",
+        "selectClusterToView": "Pasirinkite grupę, kad peržiūrėtumėte kompetencijas"
+    },
+    "share": {
+        "title": "Bendrinkite „GLA360“ ataskaitą",
+        "setPassword": "Nustatykite bendrinimo nuorodos slaptažodį",
+        "isPwProtected": "yra apsaugotas slaptažodžiu",
+        "turnShareLink": "Įjunkite\/išjunkite bendrinimo nuorodą",
+        "copyShareLink": "Kopijuoti bendrinimo nuorodą",
+        "settingSaved": "Nustatymai išsaugoti",
+        "linkCopied": "Apklausos nuoroda nukopijuota į iškarpinę",
+        "copyFailed": "Kopijuoti nepavyko"
+    },
+    "download": {
+        "title": "Atsisiųsti GLA360 ataskaitą PDF formatu",
+        "pleaseSelectLanguage": "Pasirinkite ataskaitos, kurią norite atsisiųsti, kalbą. Numatytoji kalba yra ta kalba, kuri buvo pasirinkta kuriant ataskaitą.",
+        "download": "Atsisiųsti"
+    }
+}

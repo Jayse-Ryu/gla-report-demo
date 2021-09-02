@@ -1,0 +1,353 @@
+{
+    "header": {
+        "ReportOfLeader": "GLA360-Bericht für<b> {leader}<\/b>",
+        "reportOfLeader": "GLA360-Bericht für <b>{leader} <\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Übersicht über die Befragten",
+        "competencyPercentiles": "Kompetenz-Radar-Diagramm",
+        "competencyOverview": "Kompetenzübersicht",
+        "highestRatedItems": "Themen mit der höchsten Bewertung",
+        "lowestRatedItems": "Themen mit der niedrigsten Bewertung",
+        "significantGaps": "Signifikante GAP's",
+        "writtenComments": "Schriftliche Kommentare",
+        "pageTitle": "Inhaltsverzeichnis",
+        "competencyBrief": "Kompetenz-Highlights",
+        "competencyMap": "Kompetenzübersicht",
+        "combinedCompetency": "Kompetenz-Highlights & Karte",
+        "competencyDescription": "Kompetenzübersicht",
+        "abbreviated": "Abgekürzt",
+        "topFive": "Top 5"
+    },
+    "relationships": {
+        "self": "Selbstbild",
+        "managers": "Vorgesetzte\/r",
+        "direct_reports": "Direktberichte",
+        "peers": "Peers",
+        "others": "Andere",
+        "all_respondents": "Alle Befragten",
+        "leader": "Selbstbild",
+        "respondents": "Alle Befragten"
+    },
+    "common": {
+        "total": "Gesamt",
+        "no_information": "Keine Information",
+        "no_response": "Keine Antwort",
+        "average": "Mittelwert",
+        "country": "Land",
+        "language": "Sprache",
+        "noDataDisplay": "Keine anzuzeigenden Daten",
+        "focusedNote": "Hinweis: Der fokussierte GLA360-Bericht enthält die Top-5-Elemente in dieser Kategorie. Die ausführliche Liste der Punkte finden Sie im vollständigen GLA360-Bericht."
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>GLA360 Bericht<\/b> für <b>{leader}<\/b>",
+        "publishedAt": "Veröffentlicht am {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Übersicht der Befragten",
+        "descriptionTable": "Die folgenden Zahlen geben die Anzahl der ausgefüllten Befragungen an, die von jeder Befragtengruppe vor dem Fälligkeitsdatum eingereicht wurden. Bitte beachten Sie, dass diese Zahlen nicht unbedingt die Anzahl der Antworten widerspiegeln, die Sie zu jedem Thema erhalten haben. Einige Personen haben Ihnen möglicherweise nicht zu jedem Thema Feedback gegeben. Diese Zahlen stellen nur abgeschlossene, eingereichte Bewertungen dar.",
+        "descriptionData": "Um die Anonymität zu wahren, werden in Ihrem Feedback-Bericht keine Antworten von anonymen Befragtengruppen (z. B. Direktberichte, Kollegen, Andere) mit weniger als drei eingereichten Befragungen angezeigt. Wenn weniger als drei Befragungen von einer Befragtengruppe eingegangen sind, werden deren Bewertungen mit denen einer anderen Befragtengruppe kombiniert.\n\nFür jedes einzelne Thema mit weniger als drei Antworten in einer Befragtengruppe wird  mit \"Unzureichende Anzahl  Antworten\" angezeigt.",
+        "reportN": "Berichtete N",
+        "nominatedN": "Nominierte N",
+        "responseRate": "Rücklaufquote"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Kompetenz-Perzentile des Radardiagramms",
+            "subtitle": "So lesen Sie das Radardiagramm",
+            "description": "Das Radardiagramm gibt einen Überblick für die Wirksamkeit von Führungskräften, mit dem sich Stärken und zu entwickelnde Bereiche leicht identifizieren lassen. Diese Kompetenzübersicht ist ein guter Ausgangspunkt, um Verhaltensdetails zu analysieren. \n\nIn diesem Abschnitt werden der Rang der Kompetenz-Perzentile für die Selbstbeurteilung sowie der Perzentilrang aller Befragten dargestellt, der ohne die Selbstbeurteilung berechnet wird.",
+            "pointATitle": "Themengruppe\/-cluster",
+            "pointA": "Erfolg sichernstellen, Kontinuierliche Veränderung, Menschen einbeziehen, Einbezug ohne Grenzen, Kommunikation.",
+            "pointBTitle": "Kompetenz",
+            "pointB": "Global denken, Chancen antizipieren, eine gemeinsame Vision entwickeln, Menschen entwickeln, Menschen befähigen, Diversität schätzen, Partnerschaften aufbauen, Veränderungen anführen, technologisches Know-how entwickeln, konstruktive Dialoge fördern, Kundenzufriedenheit sicherstellen, Wettbewerbsvorteile aufrechterhalten, ihr persönliches Optimum erreichen, gemeinsames Führen, Integrität demonstrieren."
+        },
+        "competencyOverview": {
+            "title": "Übersicht über die Kompetenzen",
+            "subtitle": "So ist die Grafik zu deuten",
+            "description": "Die Kompetenzzusammenfassung gliedert die Bewertungsergebnisse nach Befragtengruppe und ermöglicht einen einfachen Vergleich\/eine Lückenanalyse. Das N steht für die Gesamtzahl der eingegangenen Antworten für alle Themen in der jeweiligen Kompetenz.",
+            "pointATitle": "Kompetenz (Kompetenzbereich)",
+            "pointA": "In diesem Beispiel ist „Integrität demonstrieren“ die Kompetenz in im Kompetenzbereich „Kommunikation“.",
+            "pointBTitle": "Durchschnitt der Befragtengruppe",
+            "pointB": "Der Durchschnittswert jeden Themas wird zur Berechnung des Durchschnittswertes der dahinterliegenden Kompetenz verwendet.",
+            "pointCTitle": "Normativer Gruppendurchschnitt",
+            "pointC": "Hiermit werden die durchschnittlichen Bewertungen der Teilnehmer mit denen anderer Teilnehmer verglichen, die an diesem Bewertungsprozess als Teil der globalen Normgruppe teilgenommen haben.",
+            "pointDTitle": "Liniendiagramm",
+            "pointD": "Durchschnitt der Selbstbeurteilung",
+            "pointETitle": "Gültige Anzahl N",
+            "pointE": "Anzahl der eingegangenen Antworten für alle Themen pro Befragtengruppe. In diesem Beispiel wurden aus der Gruppe der Direktberichte 15 Antworten zu den Themen, die zu dieser Kompetenz gehören, eingereicht. Beachten Sie, dass N nicht zwingend der Anzahl der ausgewählten Befragten entspricht.",
+            "pointFTitle": "Verteilung",
+            "pointF": "Die Zahlen in jedem Kreis zeigen die Anzahl Teilnehmer pro Ausprägung in der Bewertungsskala. In diesem Beispiel hat \"Selbst\" 5 Themen bzw. Fragen zu dieser Kompetenz mit \"Zufrieden (4)\" beantwortet.",
+            "pleaseNote": "Hinweis: Der fokussierte GLA360-Bericht enthält Details für die Führungskraft und alle Befragten. Die Erkenntnisse pro Untergruppe (Manager, Direktberichte, Kollegen und andere) sind im ausführlichen GLA360-Bericht verfügbar."
+        },
+        "itemMatrix": {
+            "subtitle": "Wie ist die Themen-Matrix zu lesen?",
+            "description": "In diesem Abschnitt werden alle Themen innerhalb einer  Kompetenz nach der Befragtengruppe gemittelt. Das N gibt die Gesamtzahl der Antworten an, die für alle Elemente in den jeweiligen Kompetenzen eingegangen sind.",
+            "pointATitle": "Durchschnitt der Befragtengruppe",
+            "pointA": "Der Durchschnitt einer Befragtengruppe für dieses Thema.",
+            "pointBTitle": "Thema",
+            "pointB": "Liste der Fragen, die den Befragten in der Umfrage gestellt worden sind.",
+            "pointCTitle": "Perzentilrang",
+            "pointC": "Perzentile geben an, wie die durchschnittliche Punktzahl des Einzelnen für ein bestimmtes Thema im Vergleich zu anderen Personen ist, die diesen Bewertungsprozess durchlaufen und diese Umfrage als Teil der globalen Normgruppe verwendet haben. Im obigen Beispiel beträgt das Perzentil für die Bewertung von Kollegen 64. Dies zeigt, dass 36% der anderen Personen, die Feedback zu diesem Thema erhalten haben, eine höhere Punktzahl als der Teilnehmer erhalten haben. 64% der globalen Normgruppe erhielten eine Bewertung, die entweder gleich oder niedriger als die Bewertung des Einzelnen zu diesem bestimmten Thema ist.",
+            "pointDTitle": "Unzureichende Antworten",
+            "pointD": "Durchschnittswerte werden nicht angezeigt, wenn 2 oder weniger Antworten vorliegen, um die Anonymität der Befragten zu schützen.",
+            "pointETitle": "Keine Antworten",
+            "pointE": "Dies zeigt an, dass es keine Antworten auf diese Frage gab."
+        },
+        "HighestItem": {
+            "title": "Themen mit der höchsten Bewertung",
+            "subtitle": "Wie ist die Grafik zu lesen?",
+            "description1": "Die Übersicht über die am höchsten bewerteten Themen fasst die Führungsstärken auf drei Ebenen zusammen: Verhalten, Kompetenz und Themengruppe bzw. -cluster. Dies macht es sehr einfach, Gemeinsamkeiten und Themen zu identifizieren, um Stärken in der Führung und Themen mit hoher Effektivität innerhalb und zwischen den Befragtengruppen zusammenzufassen.",
+            "description2": "Die Anzahl der aufgelisteten Themen entspricht den besten 10% aller Durchschnittswerte jedes Themas aus der Bewertung pro Befragtengruppe. Wenn dasselbe Thema in den Top 10% der anderen Befragtengruppen auftaucht, wird es mit einem grünen Punkt gekennzeichnet (siehe C). Wenn der Mittelwert eines Themas unter 2.00 liegt, wird das Thema hier nicht aufgelistet.",
+            "pointATitle": "Kompetenz, Kompetenzbereich, Thema",
+            "pointA": "Hier werden das Thema, die dazuzugehörende Kompetenz und der Kompetenzbereich aufgelistet, zu der es gehört. In diesem Beispiel ist „Integrität demonstrieren“ die Kompetenz  im Kompetenzbereich „Kommunikation“.",
+            "pointBTitle": "Mittelwert der Befragtengruppe",
+            "pointB": "Die durchschnittliche Bewertung des Themas.",
+            "pointCTitle": "Thema wiederholen",
+            "pointC": "Dies zeigt an, dass dieses Thema auch in anderen Befragtengruppen als am höchstes bewertet worden ist. Es wird mit einem  grünen Punkt hervorgehoben.",
+            "pointDTitle": "Verteilung",
+            "pointD": "Die Zahl in jedem Kreis gibt an, wie viele Teilnehmer in jeder Bewertungsskala geantwortet haben. In diesem Beispiel antworteten 3 Teilnehmer mit „Sehr zufrieden“ und 2 Teilnehmer mit „Zufrieden“."
+        },
+        "LowestItem": {
+            "title": "Themen mit der niedrigsten Bewertung",
+            "subtitle": "Wie ist die Grafik zu lesen?",
+            "description1": "In der Übersicht der Themen mit der niedrigsten Bewertung werden auf drei Ebenen die zu verbessernden Bereiche zusammengefasst: Verhaltensebene, Kompetenz und Kompetenzbereich. Dies macht es sehr einfach, Gemeinsamkeiten und Themen im Führungsverhalten zu identifizieren, deren Entwicklung für alle Befragtengruppen relevant ist.",
+            "description2": "Die Anzahl der aufgelisteten Themen entspricht den unteren 10% aller Durchschnittswerte jedes Themas aus der Bewertung pro Befragtengruppe. Wenn dasselbe Thema in den unteren 10% der anderen Befragtengruppen bewertet wird, wird es mit einem gelben Punkt angezeigt (siehe C). Wenn der Durchschnitt eines Themas über 4,00 liegt, wird das Thema nicht als Thema mit der niedrigsten Bewertung aufgeführt.",
+            "pointATitle": "Kompetenz, Kompetenzbereich, Thema",
+            "pointA": "Hier werden das Thema, die dahinterstehende Kompetenz und der Kompetenzbereich, zu dem es gehört.",
+            "pointBTitle": "Mittelwert der befragten Gruppe",
+            "pointB": "Die durchschnittliche Punktzahl des Themas",
+            "pointCTitle": "Widerholung des Themas",
+            "pointC": "Dies zeigt an, dass dieses Thema auch in anderen Befragtengruppen als am niedrigsten bewertet wurde. Es wird mit einem gelben Punkt hervorgehoben.",
+            "pointDTitle": "Verteilung",
+            "pointD": "Die Zahl in jedem Kreis gibt an, wie viele Teilnehmer zu jedem einzelnen Skalenwert geantwortet haben. In diesem Beispiel antworteten 1 Teilnehmer mit „Sehr unzufrieden“, 4 Teilnehmer mit „Unzufrieden“ und 5 Teilnehmer mit „Weder zufrieden noch unzufrieden“."
+        },
+        "significantGap": {
+            "title": "Erhebliche GAP's",
+            "subtitle": "Wie ist die Grafik zu lesen?",
+            "description1": "Die Übersicht über die signifikanten GAPs ist die Grundlage für eine Auseinandersetzung mit den Unterschieden zwischen der Selbst- und der Fremdwahrnehmung, der dem Teilnehmenden dabei hilft, sich von der Bewusstwerdung über die Akzeptanz zum Handeln überzugehen.",
+            "description2": "Es werden die signifikanten Lücken zwischen Selbsteinschätzung und jeder Befragtengruppe angegeben. Alle Themen mit einer durchschnittlichen Punktedifferenz von mehr als 30 % sind aufgeführt.",
+            "pointATitle": "Kompetenz, Kompetenzbereich, Thema",
+            "pointA": "Hier werden das Thema, der zugehörige Kompetenzbereich und der übergeordnete Themenkomplex aufgelistet.",
+            "pointBTitle": "Mittelwert der befragten Gruppe",
+            "pointB": "Dies ist der Durchschnittsbewertung der Peers zu einem Thema. Die von den Peers am höchsten und am niedrigsten bewerteten Themen sind mit grünen und gelben Pfeilen gekennzeichnet.",
+            "pointCTitle": "Mittelwert\nEigene Bew.",
+            "pointC": "Dies ist der Durchschnitt einer bestimmten Gruppe von Befragten zu einem  Thema. Die Themen mit der höchsten Eigenbewertung und die Themen mit der niedrigsten Eigenbewertung werden mit grünen und gelben Pfeilen ebenfalls angezeigt.",
+            "pointDTitle": "GAP",
+            "pointD": "Hierbei handelt es sich um die Differenz zwischen der Bewertung der Befragten und der eigenen Bewertung, sortiert von der größten positiven Abweichung zur größten negativen Abweichung."
+        }
+    },
+    "percentileRadar": {
+        "old_percentileRadar": {
+            "one": "Leer",
+            "other": "Leer"
+        },
+        "title": "Kompetenz-Radar-Diagramm"
+    },
+    "competencyOverview": {
+        "percentileRank": "Perzentilrang"
+    },
+    "itemMatrix": {
+        "title": "Thema Matrix"
+    },
+    "HighLowItems": {
+        "titleHigh": "Themen mit der höchsten Bewertung",
+        "titleLow": "Themen mit der niedrigsten Bewertung"
+    },
+    "highLowItems": {
+        "titleHigh": "Themen mit der höchsten Bewertung",
+        "titleLow": "Themen mit der niedrigsten Bewertung"
+    },
+    "significantGaps": {
+        "title": "Siginifikante GAPs",
+        "self_vs_all_rater": "Alle Befragten vs. Selbst",
+        "self_vs_direct_report": "Direktberichte vs. Selbst",
+        "self_vs_manager": "Vorgesetzte\/r vs. Selbst",
+        "self_vs_other": "Andere vs. Selbst",
+        "self_vs_peer": "Peers vs. Selbst",
+        "tableHeader": {
+            "self_vs_all_rater": "Mittelwert\nAlle Befragten",
+            "self_vs_direct_report": "Direktberichte Durchschn.",
+            "self_vs_manager": "Mittelwert\nVorgesetzte\/r",
+            "self_vs_other": "Mittelwert\nAndere",
+            "self_vs_peer": "Mittelwert\nPeers",
+            "self": "Mittelwert\nSelbst",
+            "gap": "Gap"
+        }
+    },
+    "verbatim": {
+        "title": "Schriftliche Kommentare",
+        "intro": "Kommentare Ihrer Befragten werden nach der Gruppenzugehörigkeit jedes Befragten kategorisiert. Eventuell bearbeiten oder bereinigen wir Kommentare, um die Anonymität der Befragten zu gewährleisten. Offensichtliche Grammatik- und Orthografiefehler wurden möglicherweise korrigiert, ohne den Sinn der Nachricht zu verändern. Kommentare werden nicht in Zusammenfassungen angezeigt.",
+        "pleaseNote": "Achtung: Aufgrund der sensiblen Natur der schriftlichen Kommentare zeigt der fokussierte GLA360-Bericht nur die Antworten auf Frage 73 an. Die Antworten auf die Fragen 74 und 75 sind im vollständigen GLA360-Bericht enthalten."
+    },
+    "demographics": {
+        "func_area": "Funktionsbereich",
+        "org_lvl": "Organisationsebene",
+        "time_in_curr_role": "Zeit in der aktuellen Position",
+        "industry": "Industrie",
+        "age_group": "Altersgruppe",
+        "gender": "Geschlecht"
+    },
+    "competencyBrief": {
+        "title": "Kompetenz-Highlights",
+        "blindSpots": "Blinde Zonen",
+        "strength": "Stärken",
+        "unknown": "Unbekannt",
+        "hiddenStrength": "Versteckte Stärken",
+        "description": "Oben finden Sie eine Übersicht über die drei am besten erkennbaren Kompetenzen (geordnet nach Perzentilwerten) innerhalb jedes Quadranten. Perzentile werden basierend auf einer Normgruppe internationaler Führungskräfte aus einer Vielzahl von Ländern, Altersgruppen, Organisationsebenen, Branchen und Bildungshintergründen berechnet.",
+        "blindSpotsDescription": "Hierbei handelt es sich um Kompetenzen, die Mitarbeiter als Stärken anerkennen, die Führungskraft selbst jedoch nicht.",
+        "strengthDescription": "Hierbei handelt es sich um Kompetenzen, die sowohl die Führungskraft als auch die Mitarbeiter als Stärken der Führungskraft anerkennen.",
+        "unknownDescription": "Hierbei handelt es sich um Kompetenzen, die von der Führungskraft und den Mitarbeitern nicht erkannt werden.",
+        "hiddenStrengthDescription": "Hierbei handelt es sich um Kompetenzen, die den Mitarbeitern entweder nicht bekannt sind oder die sie nicht als Stärken der Führungskraft erkennen.",
+        "combinedTitle": "Kompetenz-Highlights & Karte"
+    },
+    "competencyMap": {
+        "title": "Kompetenzübersicht",
+        "subtitle": "Perzentilrang nach Kompetenz",
+        "selfRank": "Selbst (Perzentilrang)",
+        "respondentRank": "Alle Befragten (Perzentilrang)"
+    },
+    "competencyDescription": {
+        "title": "Kompetenzübersicht",
+        "category": {
+            "assureSuccess": {
+                "title": "Erfolg sichern",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Entwicklung von technologischem Know-how",
+                        "description_1": "Verstehen, wie der Einsatz von Technologie die Produktivität der Mitarbeiter und die Effektivität des Unternehmens steigern wird, um in der Welt von morgen erfolgreich zu sein."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Kundenzufriedenheit sicherstellen",
+                        "description_1": "Sicherstellung der Zusammenarbeit zwischen Funktionen\/Teams, um qualitativ hochwertige Dienstleistungen\/Produkte bereitzustellen und Menschen zu inspirieren, kontinuierlich ein höheres Maß an Kundenzufriedenheit zu erreichen."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Aufrechterhaltung eines Wettbewerbsvorteils",
+                        "description_1": "Effektive Leitung der kontinuierlichen Verbesserung von:",
+                        "list_1": "Schneller bessere Ergebnisse erzielen",
+                        "list_2": "Mobilisierung des intellektuellen Kapitals in der Organisation",
+                        "list_3": "Eliminierung von Verschwendung und unnötigen Kosten",
+                        "list_4": "Lieferung von Produkten und Dienstleistungen",
+                        "list_5": "Erzielen von langfristigem Shareholder-Value"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Kontinuierlicher Wandel",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Persönliche Meisterschaft erlangen",
+                        "description_1": "Führungskräfte verbessern ihre Führungseffizienz \"von innen nach außen\" durch:",
+                        "list_1": "Erhöhte Selbstwahrnehmung in Bezug auf Verhaltensweisen, Motivatoren, persönliche Vorlieben usw.",
+                        "list_2": "Umgang mit seinen\/ihren Emotionen und Verhaltensweisen",
+                        "list_3": "Kompetenzlücken schließen"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Chancen antizipieren",
+                        "list_1": "Zukunftstrends untersuchen",
+                        "list_2": "Zukunftschancen antizipieren",
+                        "list_3": "Blick in die Zukunft",
+                        "list_4": "Ideen entwickeln, um den Anforderungen der neuen Umgebungen gerecht zu werden"
+                    },
+                    "leading_change": {
+                        "title": "Veränderungen führen",
+                        "list_1": "Veränderung ist eine Chance",
+                        "list_2": "Führung versus Management: den Status quo herausfordern",
+                        "list_3": "Flexibilität",
+                        "list_4": "Kreativität fördern",
+                        "list_5": "Ideen in Ergebnisse umsetzen"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Menschen engagieren",
+                "table": {
+                    "developing_people": {
+                        "title": "Menschen entwickeln",
+                        "description_1": "Binden Sie Leistungsträger durch:",
+                        "list_1": "Schulung und Coaching (Feedback\/Feedforward)",
+                        "list_2": "Respekt und Würde zeigen",
+                        "list_3": "Belohnen und Anerkennen von Leistungen",
+                        "list_4": "Schaffung einer florierenden Umgebung"
+                    },
+                    "building_partnerships": {
+                        "title": "Aufbau von Partnerschaften",
+                        "list_1": "Vertrauensaufbau",
+                        "list_2": "Proaktiver Fokus auf eine positive Agenda",
+                        "list_3": "Schmieden von Partnerschaften und Allianzen im gesamten Unternehmen",
+                        "list_4": "Erstellen von Netzwerken außerhalb der Organisation"
+                    },
+                    "sharing_leadership": {
+                        "title": "Führung teilen",
+                        "description_1": "Die Abflachung von Organisationen mit Matrixstrukturen, Partnerschaftsallianzen und Auslagerung von Geschäftsprozessen führt zu einer breiten und tiefen Streuung von Fachwissen, Macht, Autorität und Entscheidungen in der Organisation, seitlich und vertikal.",
+                        "description_2": "Aufbau eines Führungsteams durch:",
+                        "list_1": "Schaffung einer breiteren Erfahrungsbasis im Senior Management, Expertenwissen und komplementären Stärken",
+                        "list_2": "Seine\/ihre Grenzen kennen und sich auf seine\/ihre Talente\/Expertise verlassen",
+                        "list_3": "Zusammenarbeit mit Fokus auf Vertrauensbildung, um eine gemeinsame Agenda-Vision zu verwirklichen",
+                        "list_4": "Weg vom „einen richtigen Weg“ und hin zum „derzeit besten Weg“"
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Grenzenlose Inklusion",
+                "table": {
+                    "empowering_people": {
+                        "title": "Menschen befähigen",
+                        "list_1": "Bauen Sie Selbstvertrauen auf, indem Sie funktionale Fähigkeiten trainieren",
+                        "list_2": "Gehen Sie kalkulierte Risiken ein, indem Sie Anwendungs- und Wachstumsmöglichkeiten bieten",
+                        "list_3": "Geben Sie Freiheit, indem Sie den Prozess Schritt für Schritt loslassen, um den Menschen Raum zu geben, sich selbst zu ermächtigen",
+                        "list_4": "Schaffen Sie Vertrauen, indem Sie Leistungen mit einem vertrauenswürdigen Prozess fördern"
+                    },
+                    "thinking_globally": {
+                        "title": "Globales Denken",
+                        "description_1": "Der technologische Fortschritt hat eine grenzenlos vernetzte, globale Umgebung geschaffen. Dies führt zu:",
+                        "list_1": "Höhere Standards im Kundenservice, Innovation usw.",
+                        "list_2": "Allianzen zwischen Regierungen, Industrien und Organisationen",
+                        "list_3": "Eine globale Perspektive mit multikultureller Erfahrung in verschiedenen Unternehmen"
+                    },
+                    "appreciating_diversity": {
+                        "title": "Vielfalt wertschätzen",
+                        "list_1": "Interesse daran haben, Unterschiede aufgrund von Kultur, Religion, Geschlecht, Persönlichkeit, Bildungshintergrund, Alter\/Generation und Denkstilen zu verstehen und zu schätzen",
+                        "list_2": "Unterschiede nutzen, um neue Perspektiven zu gewinnen",
+                        "list_3": "Lernen, bei der Motivation von Menschen zu unterscheiden"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Kommunikation",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Integrität demonstrieren",
+                        "description_1": "Sich selbst, andere und die Kultur führen durch:",
+                        "list_1": "Vorbildliche Ehrlichkeit, ethisches Verhalten und Unternehmenswerte",
+                        "list_2": "Das Vertrauen genießen, Menschen in die richtige Richtung zu führen",
+                        "list_3": "Menschen während des Verlaufs respektieren",
+                        "list_4": "Sicherstellung einer konstruktiven Organisationskultur"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Ermutigung zum konstruktiven Dialog",
+                        "description_1": "Konsequente Kommunikation bei der gemeinsamen Führung durch:",
+                        "list_1": "Fragen stellen, um Feedback, Anregungen und neue Ideen einzuholen",
+                        "list_2": "Unvoreingenommenes Zuhören",
+                        "list_3": "Konstruktives Feedback annehmen",
+                        "list_4": "Sich in die Lage eines anderen hineinversetzen (Empathie)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Eine gemeinsame Vision schaffen",
+                        "description_1": "Eine Vision schaffen durch:",
+                        "list_1": "Input von anderen einholen",
+                        "list_2": "Impulse setzen und andere inspirieren",
+                        "list_3": "Strategisches Unterstützen der Vision",
+                        "list_4": "Definieren von Rollen und Prioritäten"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Nächste Schritte",
+        "description_1": "Der GLA360-Bericht wurde speziell entwickelt, um wertvolle Einblicke in die 15 wichtigsten Kompetenzen von Führungskräften von heute in einem internationalen Geschäftsumfeld zu geben.",
+        "description_2": "Ein 360-Assessment ist ein spannender erster Schritt, um auf Ihrem Führungsweg sinnvolle Veränderungen vorzunehmen. Wenn Sie mehr erfahren und Ihre Führungskräfteentwicklung vorantreiben möchten, besuchen Sie unser Ressourcencenter unter {link} .",
+        "information_free": "Der kostenlose GLA360-Bericht bietet einen kurzen Überblick über das Assessment. Wenn Sie tiefere Einblicke in Ihre Führungsergebnisse gewinnen möchten, können Sie unter dem nachfolgendem Link entweder auf einen fokussierten GLA360-Bericht oder einen vollständigen GLA360-Bericht einschließlich Nachbesprechung mit einem zertifizierten Coach zugreifen: {link} .",
+        "information_focused": "Wenn Sie tiefere Einblicke in Ihre Führungsergebnisse erhalten möchten, können Sie unter nachfolgendem Link auf Ihren vollständigen GLA360-Bericht zugreifen und eine Nachbesprechung mit einem zertifizierten Coach vereinbaren: {link}."
+    }
+}

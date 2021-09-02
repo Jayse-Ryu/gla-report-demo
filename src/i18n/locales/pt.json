@@ -1,0 +1,353 @@
+{
+    "header": {
+        "ReportOfLeader": "Relatório de Feedback GLA para <b>{leader}<\/b>",
+        "reportOfLeader": "Relatório GLA360 para <b>{leader}<\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Visão geral dos avaliadores",
+        "competencyPercentiles": "Gráfico de Radar de Competências",
+        "competencyOverview": "Resumo das competências",
+        "highestRatedItems": "Itens com maiores pontuações",
+        "lowestRatedItems": "Itens com menores pontuações",
+        "significantGaps": "Grandes gaps",
+        "writtenComments": "Comentários escritos",
+        "pageTitle": "Tabela de Conteúdos",
+        "competencyBrief": "Destaques de Competência",
+        "competencyMap": "Mapa de Competências",
+        "combinedCompetency": "Destaques de Competência & Mapa",
+        "competencyDescription": "Visão Geral de Competências",
+        "abbreviated": "Abreviado",
+        "topFive": "Top 5"
+    },
+    "relationships": {
+        "self": "Você Mesmo",
+        "managers": "Gerentes",
+        "direct_reports": "Subordinados",
+        "peers": "Colegas",
+        "others": "Outros",
+        "all_respondents": "Todos os Avaliadores",
+        "leader": "Auto",
+        "respondents": "Todos os Respondentes"
+    },
+    "common": {
+        "total": "Total",
+        "no_information": "Nenhuma Informação",
+        "no_response": "Nenhuma Resposta",
+        "average": "Média",
+        "country": "País",
+        "language": "Idioma",
+        "noDataDisplay": "Nenhum dado a ser exibido",
+        "focusedNote": "Observação: O Relatório Focused GLA360 inclui os 5 itens principais desta categoria. A lista abrangente de itens está disponível no Relatório GLA360 completo."
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>Relatório GLA360<\/b> para <b>{leader}<\/b>",
+        "publishedAt": "Publicado em {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Visão geral dos avaliadores",
+        "descriptionTable": "Os números abaixo representam o número de pesquisas completas enviadas por cada grupo de avaliadores antes da data de fechamento. Observe que estes números não refletem necessariamente o número de respostas recebidas sobre cada item, pois alguns indivíduos podem não ter dado feedback sobre cada item. Estes números representam apenas as avaliações concluídas e enviadas.",
+        "descriptionData": "Para preservar o anonimato, seu relatório de feedback não exibirá respostas de grupos de avaliadores anônimos (por exemplo, Subordinados, Colegas, Outros) com menos de três pesquisas enviadas. Se menos de três pesquisas tiverem sido recebidas de um grupo de avaliadores, suas notas serão combinadas com as de outro grupo de avaliadores.\n\nPara qualquer item individual com menos de três respostas em um grupo de avaliadores, \"Respostas insuficientes\" aparecerão para esse item no lugar dos dados.",
+        "reportN": "N Relatório",
+        "nominatedN": "N Nomeados",
+        "responseRate": "Taxa de resposta"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Gráfico de Radar de Competências",
+            "subtitle": "Como ler o Gráfico do Radar",
+            "description": "O gráfico de radar é um painel de eficácia da liderança que facilita a identificação de pontos fortes e áreas a serem desenvolvidas. Esta visão geral de competências de alto nível é um bom ponto de partida para se aprofundar nos detalhes comportamentais. \n\nEsta seção representa a classificação dos percentis de competência para as respostas próprias, bem como a classificação percentual de Todos os Entrevistados que é calculada sem as respostas próprias.",
+            "pointATitle": "Conjunto",
+            "pointA": "Assegurar Sucesso, Mudança Contínua, Engajar Pessoas, Inclusão Sem Fronteiras, Comunicação.",
+            "pointBTitle": "Competência",
+            "pointB": "Pensar de forma global, prever oportunidades, criar uma visão compartilhada, desenvolver pessoas, empoderar pessoas, apreciar a diversidade, construir parcerias, liderar a mudança, desenvolver conhecimento tecnológico, incentivar o diálogo construtivo, assegurar a satisfação do cliente, manter uma vantagem competitiva, alcançar maestria pessoal, compartilhar liderança, demonstrar integridade."
+        },
+        "competencyOverview": {
+            "title": "Resumo das competências",
+            "subtitle": "Como ler o resumo",
+            "description": "O Resumo de Competências divide os resultados da avaliação por grupo de respondentes e permite uma fácil comparação\/análise de lacunas. O N significa o número total de respostas recebidas para todos os itens em cada uma das respectivas competências.",
+            "pointATitle": "Competência (Conjunto)",
+            "pointA": "Neste exemplo, \"Demonstrar Integridade\" é a competência no conjunto \"Comunicação\".",
+            "pointBTitle": "Média do Grupo de Avaliadores",
+            "pointB": "A média de cada item é usada para calcular a média desta competência.",
+            "pointCTitle": "Média do Grupo Normativo",
+            "pointC": "Isto é fornecido para comparar as notas médias dos participantes com outros que participaram deste processo de avaliação como parte do grupo normativo global.",
+            "pointDTitle": "Gráfico de linha",
+            "pointD": "Pontuação média de Você Mesmo",
+            "pointETitle": "N válido",
+            "pointE": "Número de respostas recebidas para todos os itens por grupo de respondentes. Neste exemplo, do grupo de Relatórios Diretos, 15 respostas foram submetidas aos itens desta competência. Observe que N não é necessário igual ao número de respondentes nomeados.",
+            "pointFTitle": "Distribuição",
+            "pointF": "Os números em cada círculo mostram quantos participantes responderam em cada escala de avaliação. Neste exemplo, \"Você Mesmo\" respondeu \"Satisfeito (4)\" para 5 itens que constituem esta competência.",
+            "pleaseNote": "Observação: O Relatório GLA360 Focused inclui detalhes para o Líder e todos os Respondentes. Os insights por grupo de breakout (Gerentes, Relatórios Diretos, Pares e Outros) estão disponíveis no Relatório completo do GLA360."
+        },
+        "itemMatrix": {
+            "subtitle": "Como ler a Matriz de Item",
+            "description": "Esta seção mostra a média de todas as pontuações de itens de uma competência por grupo de avaliadores. O N significa o número total de respostas recebidas para todos os itens em cada uma das respectivas competências.",
+            "pointATitle": "Média de Grupo de Avaliadores",
+            "pointA": "A média de um grupo de respondentes para este item.",
+            "pointBTitle": "Item",
+            "pointB": "Lista de perguntas feitas na pesquisa que os avaliadores enviaram.",
+            "pointCTitle": "Ranking percentual",
+            "pointC": "Os percentuais são indicativos de como a pontuação média do indivíduo para um determinado item se compara a outros que passaram por este processo de assessment e utilizaram esta pesquisa como parte do grupo normativo global. No exemplo acima, o percentual para a pontuação dos colegas é 64. Isso indica que 36% dos outros indivíduos que receberam feedback sobre este item receberam uma pontuação mais alta do que o participante. 64% do grupo normativo global recebeu uma classificação igual ou inferior à pontuação do indivíduo sobre este item específico.",
+            "pointDTitle": "Respostas insuficientes",
+            "pointD": "As médias não são exibidas quando há 2 ou menos respostas para proteger o anonimato dos respondentes.",
+            "pointETitle": "Nenhuma resposta",
+            "pointE": "Isso indica que ninguém respondeu a esta pergunta."
+        },
+        "HighestItem": {
+            "title": "Itens de Maior Pontuação",
+            "subtitle": "Como ler o gráfico",
+            "description1": "A visão geral dos Itens de Maior Pontuação resume os pontos fortes em três níveis: Nível de Item Comportamento, Nível de Item Competência e Nível de Item Conjunto. Isso faz com que seja muito fácil identificar pontos em comum e temas para resumir os pontos fortes da liderança e áreas de eficácia de alto nível de acordo com os grupos de avaliadores.",
+            "description2": "O número de itens listados corresponde aos 10% principais de todas as pontuações médias de cada item da avaliação por grupo de entrevistados. Se o mesmo item for classificado nos primeiros 10% dos outros grupos de respondentes, ele será indicado com o ponto verde (ver B). Além disso, se a média de um item for inferior a 2.00, o item não será listado como um item com classificação mais alta.",
+            "pointATitle": "Competência, Conjunto, Item",
+            "pointA": "Isso mostra o item, a competência e o conjunto ao qual ele pertence. Neste exemplo, \"Demonstrar Integridade\" é a competência no conjunto \"Comunicação\".",
+            "pointBTitle": "Média de Grupo de Avaliadores",
+            "pointB": "A pontuação média do item.",
+            "pointCTitle": "Item repetido",
+            "pointC": "Isto indica que este item também é considerado como sendo um item de maior pontuação em outros grupos de avaliadores e é destacado com um ponto verde.",
+            "pointDTitle": "Distribuição",
+            "pointD": "O número em cada círculo mostra quantos participantes responderam em cada escala de pontuação. Neste exemplo, 3 participantes responderam \"Muito Satisfeito\" e 2 participantes responderam \"Satisfeito\"."
+        },
+        "LowestItem": {
+            "title": "Itens de Menor Pontuação",
+            "subtitle": "Como ler o gráfico",
+            "description1": "A visão geral dos Itens de Menor Pontuação resume as áreas a serem desenvolvidas em três níveis: Nível de Item Comportamento, Nível de Item Competência e Nível de Item Conjunto. Isso faz com que seja muito fácil identificar pontos em comum e temas para resumir as áreas a serem desenvolvidas na liderança de acordo com os grupos de avaliadores.",
+            "description2": "O número de itens listados representa os últimos 10% de todas as pontuações médias de cada item da avaliação por grupo de entrevistados. Se o mesmo item for classificado nos últimos 10% dos outros grupos de respondentes, ele será indicado com um ponto amarelo (ver B). Além disso, se a média de um item for superior a 4.00, o item não será listado como um item de classificação mais baixa.",
+            "pointATitle": "Competência, Conjunto, Item",
+            "pointA": "Isso mostra o item, a competência e o conjunto ao qual ele pertence.",
+            "pointBTitle": "Média de Grupo de Avaliadores",
+            "pointB": "A pontuação média do item.",
+            "pointCTitle": "Item repetido",
+            "pointC": "Isto indica que este item também é considerado como sendo um item de menor pontuação em outros grupos de avaliadores e é destacado com um ponto amarelo.",
+            "pointDTitle": "Distribuição",
+            "pointD": "O número em cada círculo mostra quantos participantes responderam em cada escala de pontuação. Neste exemplo, 1 participante respondeu \"Altamente Insatisfeito\", 4 participantes responderam \"Insatisfeito\" e 5 participantes responderam \"Nem Satisfeito Nem Insatisfeito\"."
+        },
+        "significantGap": {
+            "title": "Grandes Gaps",
+            "subtitle": "Como ler o gráfico",
+            "description1": "A visão geral dos Grandes Gaps impulsiona um diálogo construtivo sobre a autoconsciência e a percepção por outros. Isso ajuda o participante a ir efetivamente da consciência para a aceitação\/ação.",
+            "description2": "As lacunas significativas são fornecidas entre o Auto e cada grupo respondente. Todos os itens com uma diferença de pontuação média de mais de 30% são listados.",
+            "pointATitle": "Competência, Conjunto, Item:",
+            "pointA": "Isso mostra o item, a competência e o conjunto ao qual ele pertence.",
+            "pointBTitle": "Média de Grupo de Avaliadores",
+            "pointB": "Esta é a média de um grupo específico de avaliadores para o item. Neste caso, o grupo de avaliadores é: Colegas. Os itens de maior e menor pontuação no respectivo grupo são indicados com as setas verdes e amarelas.",
+            "pointCTitle": "Média de Você Mesmo",
+            "pointC": "Esta é a média de um grupo específico de avaliadores para o item. Os itens de maior pontuação e os itens de menor pontuação de Você Mesmo também são indicados com as setas verdes e amarelas.",
+            "pointDTitle": "Gap",
+            "pointD": "Esta é a diferença entre o grupo respondente e a média Auto, classificada desde a maior lacuna positiva até a maior lacuna negativa."
+        }
+    },
+    "percentileRadar": {
+        "old_percentileRadar": {
+            "one": "um",
+            "other": "outro"
+        },
+        "title": "Gráfico de Radar de Competência"
+    },
+    "competencyOverview": {
+        "percentileRank": "Ranking percentual"
+    },
+    "itemMatrix": {
+        "title": "Matriz de Item"
+    },
+    "HighLowItems": {
+        "titleHigh": "Itens de Maior Pontuação",
+        "titleLow": "Itens de Menor Pontuação"
+    },
+    "highLowItems": {
+        "titleHigh": "Itens de Maior Pontuação",
+        "titleLow": "Itens de Menor Pontuação"
+    },
+    "significantGaps": {
+        "title": "Grandes Gaps",
+        "self_vs_all_rater": "Todos os Avaliadores x Você Mesmo",
+        "self_vs_direct_report": "Subordinados x Auto",
+        "self_vs_manager": "Gerentes x Você Mesmo",
+        "self_vs_other": "Outros x Você Mesmo",
+        "self_vs_peer": "Colegas x Você Mesmo",
+        "tableHeader": {
+            "self_vs_all_rater": "Média de Todos os Avaliadores",
+            "self_vs_direct_report": "Média de Relatórios Diretos",
+            "self_vs_manager": "Média de Gerentes",
+            "self_vs_other": "Média de Outros",
+            "self_vs_peer": "Média de Colegas",
+            "self": "Média de Você Mesmo",
+            "gap": "Gap"
+        }
+    },
+    "verbatim": {
+        "title": "Comentários Escritos",
+        "intro": "Os comentários dos seus avaliadores estão categorizados por grupo de avaliadores. Podemos editar os comentários a fim de preservar o anonimato dos avaliadores. Erros gramaticais e tipográficos óbvios podem ter sido corrigidos, sem alterar o conteúdo da mensagem. Os comentários não aparecerão em relatórios agregados.",
+        "pleaseNote": "Observação: Devido à natureza sensível dos comentários escritos, o relatório Focused GLA360 apresenta apenas as respostas à pergunta 73. As respostas às perguntas 74 e 75 estão incluídas no Relatório completo do GLA360."
+    },
+    "demographics": {
+        "func_area": "Área Funcional",
+        "org_lvl": "Nível de Organização",
+        "time_in_curr_role": "Tempo na Função Atual",
+        "industry": "Indústria",
+        "age_group": "Faixa Etária",
+        "gender": "Gênero"
+    },
+    "competencyBrief": {
+        "title": "Destaques de Competência",
+        "blindSpots": "Pontos cegos",
+        "strength": "Pontos fortes",
+        "unknown": "Desconhecido",
+        "hiddenStrength": "Talentos Escondidos",
+        "description": "Acima está uma visão geral das três competências mais reconhecidas (classificadas por pontuação percentual) dentro de cada quadrante. Os percentuais são calculados com base em um grupo normativo de líderes internacionais de uma ampla gama de países, idades, níveis organizacionais, indústrias e formação educacional.",
+        "blindSpotsDescription": "Estas são competências que os colegas de trabalho reconhecem como pontos fortes, mas o líder não reconhece.",
+        "strengthDescription": "Estas são competências que o líder e os colegas de trabalho reconhecem como pontos fortes do líder.",
+        "unknownDescription": "Estas são competências que não são reconhecidas pelo líder e colegas de trabalho.",
+        "hiddenStrengthDescription": "Estas são competências que os colegas de trabalho desconhecem ou não reconhecem como pontos fortes do líder.",
+        "combinedTitle": "Destaques de Competência & Mapa"
+    },
+    "competencyMap": {
+        "title": "Mapa de Competências",
+        "subtitle": "Classificação percentual por competência",
+        "selfRank": "Auto (Classificação Percentual)",
+        "respondentRank": "Todos os Entrevistados (Classificação Percentual)"
+    },
+    "competencyDescription": {
+        "title": "Visão Geral de Competências",
+        "category": {
+            "assureSuccess": {
+                "title": "Garantir o Sucesso",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Desenvolvimento de Conhecimento Tecnológico",
+                        "description_1": "Compreendendo como a aplicação da tecnologia aumentará a produtividade das pessoas e a eficácia dos negócios para ter sucesso no mundo de amanhã."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Garantindo a Satisfação do Cliente",
+                        "description_1": "Assegurar a colaboração entre funções\/equipes para fornecer serviços\/produtos de qualidade e inspirar as pessoas a alcançar continuamente níveis mais altos de satisfação dos clientes."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Manter uma Vantagem Competitiva",
+                        "description_1": "Liderar efetivamente a melhoria contínua de:",
+                        "list_1": "Produzindo melhores resultados mais rapidamente",
+                        "list_2": "Mobilização de capital intelectual na organização",
+                        "list_3": "Eliminando desperdícios e custos desnecessários",
+                        "list_4": "Entrega de produtos e serviços",
+                        "list_5": "Alcançando o valor dos acionistas de longo prazo"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Mudança Contínua",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Alcançar o Domínio Pessoal",
+                        "description_1": "Os líderes estão melhorando sua eficácia de liderança “do avesso” através de:",
+                        "list_1": "Maior autoconsciência em torno de comportamentos, motivadores, preferências pessoais, etc.",
+                        "list_2": "Gerenciamento de suas emoções e comportamentos",
+                        "list_3": "Preenchendo lacunas de competências"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Antecipando Oportunidades",
+                        "list_1": "Investigando tendências futuras",
+                        "list_2": "Antecipando oportunidades futuras",
+                        "list_3": "Olhando para o futuro",
+                        "list_4": "Desenvolva ideias para atender às necessidades de novos ambientes"
+                    },
+                    "leading_change": {
+                        "title": "Liderando a Mudança",
+                        "list_1": "A mudança é uma oportunidade",
+                        "list_2": "Liderança versus gerenciamento: desafiando o status quo",
+                        "list_3": "Flexibilidade",
+                        "list_4": "Incentivando a criatividade",
+                        "list_5": "Traduzindo ideias em resultados"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Envolvendo as Pessoas",
+                "table": {
+                    "developing_people": {
+                        "title": "Desenvolvendo as Pessoas",
+                        "description_1": "Envolva profissionais de alto impacto através de:",
+                        "list_1": "Treinamento e coaching (feedback\/feedforward)",
+                        "list_2": "Mostrando respeito e dignidade",
+                        "list_3": "Recompensando e reconhecendo conquistas",
+                        "list_4": "Criando um ambiente próspero"
+                    },
+                    "building_partnerships": {
+                        "title": "Construindo Parcerias",
+                        "list_1": "Construindo confiança",
+                        "list_2": "Focando proativamente em uma agenda positiva",
+                        "list_3": "Formando parcerias e alianças em toda a organização",
+                        "list_4": "Criando redes fora da organização"
+                    },
+                    "sharing_leadership": {
+                        "title": "Compartilhando a Liderança",
+                        "description_1": "Aplanar organizações com estruturas matriciais, alianças de parceria e terceirização de processos de negócios, resultando em ampla e profunda dispersão de especialidades, poder, autoridade e decisões na organização lateral e verticalmente.",
+                        "description_2": "Construindo uma equipe de líderes através de:",
+                        "list_1": "Criando uma base mais ampla de experiência em gerenciamento sênior, conhecimento especializado e pontos fortes complementares",
+                        "list_2": "Conhecendo suas limitações e deferindo a seus talentos\/especialidades",
+                        "list_3": "Colaboração focada na construção da confiança para cumprir uma visão de agenda comum",
+                        "list_4": "Mudando de “um jeito certo” para “o melhor jeito no momento”"
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Inclusão sem limites",
+                "table": {
+                    "empowering_people": {
+                        "title": "Capacitando Pessoas",
+                        "list_1": "Construir confiança através de treinamento em habilidades funcionais",
+                        "list_2": "Assumir riscos calculados, proporcionando oportunidades de aplicação e crescimento",
+                        "list_3": "Dar liberdade deixando o processo de lado passo a passo para dar às pessoas espaço para serem capacitadas",
+                        "list_4": "Criar confiança através do incentivo à realização usando um processo confiável"
+                    },
+                    "thinking_globally": {
+                        "title": "Pensar Globalmente",
+                        "description_1": "O avanço tecnológico criou um ambiente global interconectado sem fronteiras. Levando a:",
+                        "list_1": "Padrões mais elevados em atendimento ao cliente, inovação, etc.",
+                        "list_2": "Alianças entre governos, indústrias e organizações",
+                        "list_3": "Ter uma perspectiva global com experiência multicultural em diferentes negócios"
+                    },
+                    "appreciating_diversity": {
+                        "title": "Apreciar a Diversidade",
+                        "list_1": "Estar interessado em compreender, estar à vontade e apreciar as diferenças como resultado da cultura, religião, gênero, personalidade, formação educacional, idade\/geração e estilos de pensamento",
+                        "list_2": "Alavancar as diferenças para ganhar novas perspectivas",
+                        "list_3": "Aprender a diferenciar na motivação das pessoas"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Comunicação",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Demonstrar Integridade",
+                        "description_1": "Liderando a si mesmo, aos outros e à cultura através de:",
+                        "list_1": "Sendo um exemplo de honestidade, comportamento ético e valores organizacionais",
+                        "list_2": "Ser confiável para liderar as pessoas na direção certa",
+                        "list_3": "Respeitando as pessoas no processo",
+                        "list_4": "Garantindo uma cultura organizacional construtiva"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Incentivando o Diálogo Construtivo",
+                        "description_1": "Comunicação consistente no compartilhamento de liderança por:",
+                        "list_1": "Fazer perguntas para solicitar feedback, feedforward, e novas ideias",
+                        "list_2": "Ouvir com a mente aberta",
+                        "list_3": "Aceitar feedback construtivo",
+                        "list_4": "Se colocar no lugar de outra pessoa (empatia)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Criar uma Visão Compartilhada",
+                        "description_1": "Criando uma visão através de:",
+                        "list_1": "Obtendo a opinião de outras pessoas",
+                        "list_2": "Criando impulso e inspirando outras pessoas",
+                        "list_3": "Apoiando a visão com estratégia",
+                        "list_4": "Definindo papéis e prioridades"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Próximos Passos",
+        "description_1": "O Relatório GLA360 foi projetado de forma específica e intencional para fornecer informações valiosas sobre as 15 competências mais importantes para o líder atual em um ambiente de negócios em internacionalização.",
+        "description_2": "Fazer uma avaliação 360 é um primeiro passo empolgante para fazer uma mudança significativa em sua jornada de liderança. Se você gostaria de ler mais e manter o desenvolvimento de sua liderança, verifique nossa central de recursos em {link}.",
+        "information_free": "O Relatório GLA360 gratuito fornece uma breve visão geral da avaliação. Se você quiser obter uma compreensão mais profunda sobre seus resultados de liderança, você pode acessar um Relatório GLA360 focado ou um Relatório GLA360 completo que inclui uma sessão de interrogatório com um treinador certificado neste link: {link}.",
+        "information_focused": "Se você quiser obter uma compreensão mais profunda sobre seus resultados de liderança, você pode acessar seu Relatório GLA360 completo e agendar uma sessão de interrogatório com um treinador certificado neste link: {link}."
+    }
+}

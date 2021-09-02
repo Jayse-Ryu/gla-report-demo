@@ -1,0 +1,396 @@
+{
+    "header": {
+        "reportTitleFor": "GLA360 Report for {leader}",
+        "ReportOfLeader": "GLA360 Report for <b>{leader}<\/b>",
+        "reportOfLeader": "GLA360 Report for <b>{leader}<\/b>"
+    },
+    "indexes": {
+        "respondentsOverview": "Respondents Overview",
+        "competencyPercentiles": "Competency Radar Graph",
+        "competencyOverview": "Competency Summary",
+        "highestRatedItems": "Highest Rated Items",
+        "lowestRatedItems": "Lowest Rated Items",
+        "significantGaps": "Significant Gaps",
+        "writtenComments": "Written Comments",
+        "pageTitle": "Table of Contents",
+        "competencyBrief": "Competency Highlights",
+        "competencyMap": "Competency Map",
+        "combinedCompetency": "Competency Highlights & Map",
+        "competencyDescription": "Competency Overview",
+        "abbreviated": "Abbreviated",
+        "topFive": "Top 5",
+        "reportOverview": "Report Overview",
+        "listOfCompetencies": "List of Competencies"
+    },
+    "relationships": {
+        "self": "Self",
+        "managers": "Managers",
+        "direct_reports": "Direct Reports",
+        "peers": "Peers",
+        "others": "Others",
+        "all_respondents": "All Respondents",
+        "leader": "Self",
+        "respondents": "All Respondents"
+    },
+    "common": {
+        "menu": "Menu",
+        "total": "Total",
+        "no_information": "No Information",
+        "no_response": "No Response",
+        "average": "Average",
+        "country": "Country",
+        "language": "Language",
+        "noDataDisplay": "No data to display",
+        "focusedNote": "Please note: The Focused GLA360 Report includes the top 5 items in this category. The comprehensive list of items is available in the Full GLA360 Report.",
+        "privacyPolicy": "Privacy Policy",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "save": "Save",
+        "copyLink": "Copy Link",
+        "rules": {
+            "reqPw": "Password is required.",
+            "reqConfirmPw": "Password confirmation is required.",
+            "matchConfirmPw": "The password confirmation does not match."
+        },
+        "competency": "Competency",
+        "dragAndDropDesc": "Drag and drop competencies to make a summary list of what you would like to review"
+    },
+    "coverPage": {
+        "reportOfLeader": "<b>GLA360 Report<\/b> for <b>{leader}<\/b>",
+        "publishedAt": "Published on {date}"
+    },
+    "respondentsOverview": {
+        "pageTitle": "Respondents Overview",
+        "descriptionTable": "The numbers below represent the number of completed surveys submitted by each respondent group prior to the due date. Please note that these numbers do not necessarily reflect the number of responses you received on each item as some individuals may not have given you feedback on every item. These figures only represent completed, submitted assessments.",
+        "descriptionData": "To preserve anonymity, your feedback report will not display responses from anonymous respondent groups (e.g., Direct Reports, Peers, Others) with fewer than three submitted surveys. If fewer than three surveys have been received from a respondent group, their ratings will be combined with those of another respondent group.\n\nFor any single item with fewer than three responses in a respondent group, “Insufficient Responses” will appear for that item in lieu of data.",
+        "reportN": "Report\nN",
+        "nominatedN": "Nominated\nN",
+        "responseRate": "Response\nRate"
+    },
+    "howToRead": {
+        "percentileRadar": {
+            "title": "Competency Radar Graph",
+            "subtitle": "How to read the Radar Graph",
+            "description": "The radar graph is a leadership effectiveness dashboard that makes it easy to identify strengths and areas to develop. This high level competency overview is a good starting point to drill down into behavioral details.\n\nThis section plots the competency percentiles rank for the Self responses as well as the percentile rank from All Respondents that is calculated without the Self responses.",
+            "pointATitle": "Cluster",
+            "pointA": "Assure Success, Continuous Change, Engage People, Boundaryless Inclusion, Communication.",
+            "pointBTitle": "Competency",
+            "pointB": "Thinking globally, anticipating opportunities, creating a shared vision, developing people, empowering people, appreciating diversity, building partnerships, leading change, developing technological savvy, encouraging constructive dialogue, ensuring customer satisfaction, maintaining a competitive advantage, achieving personal mastery, sharing leadership, demonstrating integrity."
+        },
+        "competencyOverview": {
+            "title": "Competency Summary",
+            "subtitle": "How to read the summary",
+            "description": "The Competency Summary breaks down the assessment results per respondent group and allows for an easy comparison \/ gap analysis. The N signifies the total number of responses received for all items in each of the respective competencies.",
+            "pointATitle": "Competency (Cluster)",
+            "pointA": "In this example, “Demonstrating Integrity” is the competency in the cluster “Communication”.",
+            "pointBTitle": "Respondent Group Average",
+            "pointB": "The average of each item is used to calculate the average of this competency.",
+            "pointCTitle": "Normative Group Average",
+            "pointC": "This is provided to compare the participant’s average ratings to others who have participated in this assessment process as part of the global norm group.",
+            "pointDTitle": "Line Graph",
+            "pointD": "Self average score.",
+            "pointETitle": "Valid N",
+            "pointE": "Number of responses received for all items per respondent group. In this example, from the Direct Reports group, 15 responses were submitted to the items in this competency. Note that N does not necessary equal to the number of nominated respondents.",
+            "pointFTitle": "Distribution",
+            "pointF": "The numbers in each circle shows how many participants responded in each rating scale. In this example, “Self” responded to “Satisfied (4)” to 5 items that constitute this competency.",
+            "pleaseNote": "Please note: The Focused GLA360 Report includes details for the Leader & All Respondents. The insights per breakout group (Managers, Direct Reports, Peers, and Others) are available in the Full GLA360 Report."
+        },
+        "itemMatrix": {
+            "subtitle": "How to read the Item Matrix",
+            "description": "This section averages all item ratings within a competency by respondent group. The N signifies the total number of responses received for all items in each of the respective competencies.",
+            "pointATitle": "Respondent Group Average",
+            "pointA": "The average of a respondent group for this item.",
+            "pointBTitle": "Item",
+            "pointB": "List of questions asked in the survey that respondents have submitted.",
+            "pointCTitle": "Percentile Rank",
+            "pointC": "Percentiles are indicative of how the individual's average score for a particular item compares to others who have been through this assessment process and utilized this survey as part of the global norm group. In the above example, the percentile for the rating from Peers is 64. This indicates that 36% of the other individuals who received feedback on this item received a higher score than the participant. 64% of the global norm group received a rating that is either equal to or lower than the individual's rating on this particular item.",
+            "pointDTitle": "Insufficient Responses",
+            "pointD": "Averages are not displayed when there are 2 or fewer responses to protect the anonymity of the respondents.",
+            "pointETitle": "No Responses",
+            "pointE": "This indicates that there were no responses to this question."
+        },
+        "HighestItem": {
+            "title": "Highest Rated Items",
+            "subtitle": "How to read the graph",
+            "description1": "The Highest Rated Items overview summarizes the leadership strengths on three levels: Item level behavior, competency, and cluster. This makes it very easy to identify commonalities and themes to summarize leadership strengths and areas of high-level effectiveness within and across respondent groups.",
+            "description2": "The number of items listed is the top 10% of all average scores of each item from the assessment per respondent group. If the same item is rated in the top 10% of other respondent groups, it is indicated with the green dot (see B). Additionally, if the average of an item is below 2.00 the item will not be listed as a highest rated item.",
+            "pointATitle": "Competency, Cluster, Item",
+            "pointA": "This lists the item and the competency and cluster to which it belongs. In this example, “Demonstrating Integrity“ is the competency in the cluster “Communication”.",
+            "pointBTitle": "Respondent Group Average",
+            "pointB": "The average score of the item.",
+            "pointCTitle": "Repeating Item",
+            "pointC": "This indicates that this item is also reported as highest item in other respondent groups and highlighted with a green dot.",
+            "pointDTitle": "Distribution",
+            "pointD": "The number in each circle shows how many participants responded in each rating scale. In this example, 3 participants responded, “Highly Satisfied” and 2 participants responded “Satisfied”."
+        },
+        "LowestItem": {
+            "title": "Lowest Rated Items",
+            "subtitle": "How to read the graph",
+            "description1": "The Lowest Rated Items overview summarizes the areas to develop on three levels: Item level behavior, competency, and cluster. This makes it very easy to identify commonalities and themes to summarize areas to develop in leadership across respondent groups.",
+            "description2": "The number of items listed is the bottom 10% of all average scores of each item from the assessment per respondent group. If the same item is rated in the bottom 10% of other respondent groups, it is indicated with a yellow dot (see B). Additionally, if the average of an item is above 4.00 the item will not be listed as a lowest rated item.",
+            "pointATitle": "Competency, Cluster, Item",
+            "pointA": "This lists the item and the competency and cluster to which it belongs.",
+            "pointBTitle": "Respondent Group Average",
+            "pointB": "The average score of the item.",
+            "pointCTitle": "Repeating Item",
+            "pointC": "This indicates that this item is also reported as lowest item in other respondent groups and highlighted with a yellow dot.",
+            "pointDTitle": "Distribution",
+            "pointD": "The number in each circle shows how many participants responded in each rating scale. In this example, 1 participant responded, “Highly Dissatisfied”, 4 participants responded “Dissatisfied” and 3 participants responded “Neither Satisfied nor Dissatisfied”."
+        },
+        "significantGap": {
+            "title": "Significant Gaps",
+            "subtitle": "How to read the graph",
+            "description1": "The Significant Gaps overview drives a constructive dialogue around self-awareness and perception by others that helps the participant to move effectively from awareness to acceptance \/ action.",
+            "description2": "The significant gaps are provided between Self and each respondent group. All items with an average score difference of more than 30% are listed.",
+            "pointATitle": "Competency, Cluster, Item:",
+            "pointA": "This lists the item and the competency and cluster to which it belongs.",
+            "pointBTitle": "Respondent Group Average",
+            "pointB": "This is the average of a specific respondent group for the item. In this case, the respondent group is Peers. The highest rated items and lowest rated items in the respective group are indicated with the green and yellow arrows.",
+            "pointCTitle": "Self Average",
+            "pointC": "This is the average of a specific respondent group for the item. The highest rated items and lowest rated items of Self are also indicated with the green and yellow arrows.",
+            "pointDTitle": "Gap",
+            "pointD": "This is the difference between the respondent group and Self average, sorted from the greatest positive gap down to the greatest negative gap."
+        }
+    },
+    "percentileRadar": {
+        "title": "Competency Radar Graph",
+        "one": "One",
+        "other": "Other"
+    },
+    "competencyOverview": {
+        "percentileRank": "Percentile Rank"
+    },
+    "itemMatrix": {
+        "title": "Item Matrix"
+    },
+    "HighLowItems": {
+        "titleHigh": "Highest Rated Items",
+        "titleLow": "Lowest Rated Items"
+    },
+    "highLowItems": {
+        "titleHigh": "Highest Rated Items",
+        "titleLow": "Lowest Rated Items"
+    },
+    "significantGaps": {
+        "title": "Significant Gaps",
+        "self_vs_all_rater": "All Respondents vs. Self",
+        "self_vs_direct_report": "Direct Reports vs. Self",
+        "self_vs_manager": "Managers vs. Self",
+        "self_vs_other": "Others vs. Self",
+        "self_vs_peer": "Peers vs. Self",
+        "tableHeader": {
+            "self_vs_all_rater": "All Respondents Avg.",
+            "self_vs_direct_report": "Direct Reports Avg.",
+            "self_vs_manager": "Managers Avg.",
+            "self_vs_other": "Others Avg.",
+            "self_vs_peer": "Peers Avg.",
+            "self": "Self\nAvg.",
+            "gap": "Gap"
+        }
+    },
+    "verbatim": {
+        "title": "Written Comments",
+        "intro": "Comments from your respondents are categorized by each respondents group. We might edit or sanitize comments in order to preserve the anonymity of the respondents. Obvious grammatical and typographical errors might have been corrected, without altering the content of the message. Comments will not appear on aggregate reports.",
+        "pleaseNote": "Please note: Due to the sensitive nature of the written comments, the Focused GLA360 Report only displays the responses to question 73. The responses to questions 74 and 75 are included in the Full GLA360 Report."
+    },
+    "demographics": {
+        "func_area": "Functional Area",
+        "org_lvl": "Organization Level",
+        "time_in_curr_role": "Time in Current Role",
+        "industry": "Industry",
+        "age_group": "Age Group",
+        "gender": "Gender"
+    },
+    "competencyBrief": {
+        "title": "Competency Highlights",
+        "blindSpots": "Blind spots",
+        "strength": "Strengths",
+        "unknown": "Unknown",
+        "hiddenStrength": "Hidden Strengths",
+        "description": "Above is an overview of the three most recognizable competencies (ranked by percentile scores) within each quadrant. Percentiles are calculated based on a norm group of international leaders from a wide range of countries, ages, organizational levels, industries, and educational backgrounds.",
+        "blindSpotsDescription": "These are competencies that coworkers recognize as strengths but the leader does not.",
+        "strengthDescription": "These are competencies that the leader and coworkers both recognize as strengths of the leader.",
+        "unknownDescription": "These are competencies that are not recognized by the leader and coworkers.",
+        "hiddenStrengthDescription": "These are competencies the coworkers are either unaware of or do not recognize as strengths of the leader.",
+        "combinedTitle": "Competency Highlights & Map"
+    },
+    "competencyMap": {
+        "title": "Competency Map",
+        "subtitle": "Percentile rank by competency",
+        "selfRank": "Self (Percentile rank)",
+        "respondentRank": "All Respondents (Percentile rank)"
+    },
+    "competencyDescription": {
+        "title": "Competency Overview",
+        "category": {
+            "assureSuccess": {
+                "title": "Assure Success",
+                "table": {
+                    "developing_technological_savvy": {
+                        "title": "Developing Technological Savvy",
+                        "description_1": "Understanding how the application of technology will increase people productivity and business effectiveness to succeed in tomorrow’s world."
+                    },
+                    "ensuring_customer_satisfaction": {
+                        "title": "Ensuring Customer Satisfaction",
+                        "description_1": "Ensuring collaboration among functions\/teams to deliver quality services\/products and inspires people to continuously achieve higher levels of customers satisfaction."
+                    },
+                    "maintaining_a_competitive_advantage": {
+                        "title": "Maintaining a Competitive Advantage",
+                        "description_1": "Effectively lead the continuous improvement of:",
+                        "list_1": "Producing better results faster",
+                        "list_2": "Mobilizing intellectual capital in the organization",
+                        "list_3": "Eliminating waste and unnecessary cost",
+                        "list_4": "Delivery of products and services",
+                        "list_5": "Achieving long-term shareholder value"
+                    }
+                }
+            },
+            "continuousChange": {
+                "title": "Continuous Change",
+                "table": {
+                    "achieving_personal_mastery": {
+                        "title": "Achieving Personal Mastery",
+                        "description_1": "Leaders are improving their leadership effectiveness “inside out” through:",
+                        "list_1": "Heightened self-awareness around behaviors, motivators, personal preferences, etc.",
+                        "list_2": "Management of his\/her emotions and behaviors",
+                        "list_3": "Filling in gaps in competencies"
+                    },
+                    "anticipating_opportunities": {
+                        "title": "Anticipating Opportunities",
+                        "list_1": "Investigating future trends",
+                        "list_2": "Anticipating future opportunities",
+                        "list_3": "Looking to the future",
+                        "list_4": "Develop ideas to meet needs of new environments"
+                    },
+                    "leading_change": {
+                        "title": "Leading Change",
+                        "list_1": "Change is an opportunity",
+                        "list_2": "Leadership versus management: challenging the status quo",
+                        "list_3": "Flexibility",
+                        "list_4": "Encouraging creativity",
+                        "list_5": "Translating ideas into results"
+                    }
+                }
+            },
+            "engagePeople": {
+                "title": "Engage People",
+                "table": {
+                    "developing_people": {
+                        "title": "Developing People",
+                        "description_1": "Engage high-impact performers through:",
+                        "list_1": "Training and coaching (feedback\/ feedforward)",
+                        "list_2": "Showing respect and dignity",
+                        "list_3": "Rewarding and recognizing achievements",
+                        "list_4": "Creating a thriving environment"
+                    },
+                    "building_partnerships": {
+                        "title": "Building Partnerships",
+                        "list_1": "Building trust",
+                        "list_2": "Proactively focuses on a positive agenda",
+                        "list_3": "Forging partnerships and alliances across the organization",
+                        "list_4": "Creating networks outside the organization"
+                    },
+                    "sharing_leadership": {
+                        "title": "Sharing Leadership",
+                        "description_1": "Flattening organizations with matrix structures, partnership alliances and business process outsourcing result in wide & deep dispersion of expertise, power, authority and decisions in the organization laterally and vertically.",
+                        "description_2": "Building a team of leaders through:",
+                        "list_1": "Creating a broader base of senior management experience, expert knowledge and complementary strengths",
+                        "list_2": "Knowing his\/her limitations and defer to their talents\/experts",
+                        "list_3": "Collaboration focused on trust building to deliver on a common agenda vision",
+                        "list_4": "Moving away from “one right way” to “the best way at this time\""
+                    }
+                }
+            },
+            "boundarylessInclusion": {
+                "title": "Boundaryless Inclusion",
+                "table": {
+                    "empowering_people": {
+                        "title": "Empowering People",
+                        "list_1": "Build confidence through training on functional skills",
+                        "list_2": "Take calculated risks by providing opportunities for application and growth",
+                        "list_3": "Give freedom by letting go of the process step by step to give people space to be empowered",
+                        "list_4": "Create trust through encouraging achievement using a trusted process"
+                    },
+                    "thinking_globally": {
+                        "title": "Thinking Globally",
+                        "description_1": "Technology advancement has created a borderless interconnected global environment. Leading to:",
+                        "list_1": "Higher standards in customer service, innovation, etc.",
+                        "list_2": "Alliances between governments, industries and organizations",
+                        "list_3": "Having a global perspective with multicultural experience in different businesses"
+                    },
+                    "appreciating_diversity": {
+                        "title": "Appreciating Diversity",
+                        "list_1": "Be interested to understand, be comfortable with and appreciate the differences as a result of culture, religion, gender, personality, educational background, age\/generation and thinking styles",
+                        "list_2": "Leverage differences to gain new perspectives",
+                        "list_3": "Learn to differentiate in motivating people"
+                    }
+                }
+            },
+            "communication": {
+                "title": "Communication",
+                "table": {
+                    "demonstrating_integrity": {
+                        "title": "Demonstrating Integrity",
+                        "description_1": "Lead self, others, and culture through:",
+                        "list_1": "Role modeling honesty, ethical behavior, and organizational values",
+                        "list_2": "Being trusted to lead people in the right direction",
+                        "list_3": "Respecting people in the process",
+                        "list_4": "Ensuring a constructive organizational culture"
+                    },
+                    "encouraging_constructive_dialogue": {
+                        "title": "Encouraging Constructive Dialogue",
+                        "description_1": "Consistent communication in sharing leadership by:",
+                        "list_1": "Asking questions to solicit feedback, feedforward, and new ideas",
+                        "list_2": "Listening with an open mind",
+                        "list_3": "Accepting constructive feedback",
+                        "list_4": "Putting oneself in someone else’s shoes (empathy)"
+                    },
+                    "creating_a_shared_vision": {
+                        "title": "Creating a Shared Vision",
+                        "description_1": "Creating a vision through:",
+                        "list_1": "Getting input from others",
+                        "list_2": "Creating momentum and inspiring others",
+                        "list_3": "Supporting the vision with strategy",
+                        "list_4": "Defining roles and priorities"
+                    }
+                }
+            }
+        }
+    },
+    "cta": {
+        "title": "Next Steps",
+        "description_1": "The GLA360 Report is specifically and intentionally designed to provide valuable insight into the 15 most important competencies for today’s leader in an internationalizing business environment.",
+        "description_2": "Taking a 360 assessment is an exciting first step to make meaningful change in your leadership journey. If you would like to read more and keep your leadership development going, check out our resource center at {link}.",
+        "information_free": "The Free GLA360 Report provides a short overview of the assessment. If you would like to gain deeper insights into your leadership results, you can access either a Focused GLA360 Report, or a Full GLA360 Report that includes a debrief session with a certified coach at this link: {link}.",
+        "information_focused": "If you would like to gain deeper insights into your leadership results, you can access your Full GLA360 Report and schedule a debrief session with a certified coach at this link: {link}."
+    },
+    "interactive": {
+        "theme": "Theme",
+        "light_mode": "Light Mode",
+        "dark_mode": "Dark Mode",
+        "download_pdf": "Download PDF",
+        "share": "Share",
+        "howToRead": "How to read",
+        "mapPlaceholder": "To view the Highlights and Competency Map please contact {email} to regenerate your report.",
+        "summaryPlaceholder": "Click on a competency to view the Competency Summary",
+        "competenciesToView": "Competencies to view",
+        "quickNavigation": "Quick Navigation",
+        "selectRespondentGroup": "Select your Respondent Group",
+        "selectClusterToView": "Select the cluster to view competencies"
+    },
+    "share": {
+        "title": "Share GLA360 Report",
+        "setPassword": "Set a password for the share link",
+        "isPwProtected": "is Password protected",
+        "turnShareLink": "Turn on/off share link",
+        "copyShareLink": "Copy share link",
+        "settingSaved": "Settings saved",
+        "linkCopied": "Survey link copied to clipboard",
+        "copyFailed": "Copy failed"
+    },
+    "download": {
+        "title": "Download GLA360 Report PDF",
+        "pleaseSelectLanguage": "Please select the language of the report you would like to download. The default language is the language that was selected when the report was generated.",
+        "download": "Download"
+    }
+}
