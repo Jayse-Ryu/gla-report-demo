@@ -116,7 +116,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import dialog from '@/mixins/dialog';
-import glaApi from '@/api/gla/report';
+// import glaApi from '@/api/gla/report';
 
 export default {
   name: 'ShareDialog',
@@ -222,45 +222,48 @@ export default {
 
     async getPublicStatus() {
       try {
-        const response = await glaApi.getPublicStatus(this.$route.params.id, this.selfGla);
-
-        this.isPasswordProtected = response.is_password_protected;
-        if (response.is_password_protected && response.public_password) {
-          this.password = response.public_password;
-          this.passwordConfirm = response.public_password;
-        }
-
-        // overwrite the watch methods on password and password confirm
-        setTimeout(() => {
-          this.isPublic = response.is_public;
-        }, 50);
+        // const response = await glaApi.getPublicStatus(this.$route.params.id, this.selfGla);
+        //
+        // this.isPasswordProtected = response.is_password_protected;
+        // if (response.is_password_protected && response.public_password) {
+        //   this.password = response.public_password;
+        //   this.passwordConfirm = response.public_password;
+        // }
+        //
+        // // overwrite the watch methods on password and password confirm
+        // setTimeout(() => {
+        //   this.isPublic = response.is_public;
+        // }, 50);
+        this.$toast.error('Demo report does not support API connection');
       } catch (err) {
         console.log(err);
-        this.$router.push({ name: '404' });
+        // this.$router.push({ name: '404' });
+        this.$toast.error('Demo report does not support API connection');
       }
     },
 
     async setPublicStatus() {
       try {
-        this.loading = true;
-        const data = {
-          is_public: this.isPublic,
-        };
+        // this.loading = true;
+        // const data = {
+        //   is_public: this.isPublic,
+        // };
+        //
+        // if (this.isPublic) {
+        //   data.public_password = ((!this.isSuperUser || this.isPasswordProtected)
+        //     && this.password)
+        //     ? this.password : null;
+        // }
+        //
+        // await glaApi.setPublicReportStatus(
+        //   this.$route.params.id, data, this.selfGla,
+        // );
 
-        if (this.isPublic) {
-          data.public_password = ((!this.isSuperUser || this.isPasswordProtected)
-            && this.password)
-            ? this.password : null;
-        }
-
-        await glaApi.setPublicReportStatus(
-          this.$route.params.id, data, this.selfGla,
-        );
-
-        this.$toast.success(this.$t('share.settingSaved'));
+        this.$toast.info(`Translated success message will be: ${this.$t('share.settingSaved')}`);
       } catch (err) {
         console.log(err);
-        if (err.msg) this.$toast.error(err.msg);
+        // if (err.msg) this.$toast.error(err.msg);
+        this.$toast.error('Demo report does not support API connection');
       } finally {
         this.loading = false;
       }

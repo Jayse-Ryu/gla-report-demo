@@ -29,6 +29,7 @@ const actions = {
 
     try {
       const response = await glaApi.currentUser();
+      console.log('demo api account', response);
       commit('setUser', response);
 
       return response;
