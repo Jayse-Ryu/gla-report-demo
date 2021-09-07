@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/gla-report/:id',
+    path: '/demo-report/:id',
     component: () => import(/* webpackChunkName: "gla" */ '../views/gla/GLAMain.vue'),
     children: generateGlaChildren('gla'),
   },
@@ -54,7 +54,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "public" */ '../views/404.vue'),
     meta: { requiresAuth: false },
   },
-  { path: '*', redirect: '/404', hidden: true },
+  { path: '*', redirect: '/demo-report/1/', hidden: true },
 ];
 
 const router = new VueRouter({
