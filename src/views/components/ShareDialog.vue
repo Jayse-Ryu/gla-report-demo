@@ -259,7 +259,7 @@ export default {
         //   this.$route.params.id, data, this.selfGla,
         // );
 
-        this.$toast.info(`Translated success message will be: ${this.$t('share.settingSaved')}`);
+        this.$toast.info('Demo report will not save changes.');
       } catch (err) {
         console.log(err);
         // if (err.msg) this.$toast.error(err.msg);

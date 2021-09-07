@@ -66,7 +66,8 @@ export default {
     },
 
     openLink() {
-      window.open('http://globalcoachgroup.com/', '_blank');
+      // window.open('http://globalcoachgroup.com/', '_blank');
+      this.$toast.info('The link disconnected for demo.');
     },
   },
 };

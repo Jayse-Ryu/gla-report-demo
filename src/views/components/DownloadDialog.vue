@@ -83,8 +83,7 @@ export default {
   computed: {
     filteredLanguages() {
       // Remove RTL languages for pdf generation
-      const langs = this.languages.filter((l) => l.key !== 'ar');
-      return langs;
+      return this.languages.filter((l) => l.key !== 'ar');
     },
   },
 
@@ -113,11 +112,11 @@ export default {
 
   methods: {
     async clickDownload() {
-      if (!this.mixPdfFile?.report_s3_url[this.selectedLanguage]) {
-        await this.generatePDF();
-      }
-
-      this.downloadFile(this.mixPdfFile.report_s3_url[this.selectedLanguage]);
+      // if (!this.mixPdfFile?.report_s3_url[this.selectedLanguage]) {
+      //   await this.generatePDF();
+      // }
+      // this.downloadFile(this.mixPdfFile.report_s3_url[this.selectedLanguage]);
+      this.$toast.info('The \'S3 or generated PDF\' link disconnected for demo.');
     },
 
     downloadFile(url) {

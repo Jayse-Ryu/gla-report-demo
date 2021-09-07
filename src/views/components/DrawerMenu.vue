@@ -443,8 +443,9 @@ export default {
     },
 
     goToPolicy() {
-      const url = 'https://globalcoachgroup.com/privacy-policy/';
-      window.open(url, '_blank');
+      // const url = 'https://globalcoachgroup.com/privacy-policy/';
+      // window.open(url, '_blank');
+      this.$toast.info('The link disconnected for demo.');
     },
 
     changeLoadingPdf(newValue) {
