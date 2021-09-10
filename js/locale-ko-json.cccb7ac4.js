@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["locale-ko-json"],{1922:function(e){e.exports=JSON.parse('{"header":{"ReportOfLeader":"<b> {leader} </b> 대한 GLA 피드백 보고서"},"indexes":{"respondentsOverview":"응답자 개요","competencyPercentiles":"역량 백분위 수","competencyOverview":"역량 요약","highestRatedItems":"최고 평점 항목","lowestRatedItems":"최저 등급 항목","significantGaps":"상당한 격차","writtenComments":"서면 의견"}}')}}]);
+//# sourceMappingURL=locale-ko-json.cccb7ac4.js.map
