@@ -1,5 +1,6 @@
-# GLA web report
-This project is based on the Global Coach Group's Global Leadership Assessment service. 
+# GLA web report Demo
+This project is based on the Global Coach Group's Global Leadership Assessment service.
+> Demo site : https://jayse-ryu.github.io/gla-report-demo/
 
 ## Features
 - Clickable highlight competency
