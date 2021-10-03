@@ -18,7 +18,7 @@ export default {
         // TODO find nested item and remove that properly
         this.apiRules = delete rules[nestedKey[0]];
 
-        // TBD
+        // TBD - Dot notation to Object.
         // let directory = {};
         // Object.keys(fileData).forEach((key) => {
         //   const divided = key.split('.');
