@@ -17,6 +17,30 @@ export default {
       } else if (nestedKey.length > 1) {
         // TODO find nested item and remove that properly
         this.apiRules = delete rules[nestedKey[0]];
+
+        // TBD
+        // let directory = {};
+        // Object.keys(fileData).forEach((key) => {
+        //   const divided = key.split('.');
+        //   const value = fileData[key];
+        //
+        //   /**
+        //    tempObject: Base object for creating a new structure.
+        //    container: The property for keep digging into the nested object of tempObject.
+        //    It can't be fetching from directory property directly because it needs to initialize
+        //    */
+        //   let tempObject = {...directory};
+        //   let container = tempObject;
+        //   divided.forEach((key, index, values) => {
+        //     if (container[key] === undefined) {
+        //       container = (container[key] = (index === values.length - 1 ? value : {}))
+        //     } else {
+        //       container = (container[key] =
+        //       (index === values.length - 1 ? value : container[key]))
+        //     }
+        //   });
+        //   directory = tempObject;
+        // });
       }
     },
 
